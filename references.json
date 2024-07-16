@@ -1,25 +1,1115 @@
 {
-    "references": {
-        "1": "Loges NT, Olbrich H, Fenske L, et al. DNAI2 mutations cause primary ciliary dyskinesia with defects in the outer dynein arm. Am J Hum Genet. 2008;83(5):547-558.",
-        "2": "Leigh MW, Ferkol TW, Davis SD, et al. Clinical Features and Associated Likelihood of Primary Ciliary Dyskinesia in Children and Adolescents. Ann Am Thorac Soc. 2016;13(8):1305-1313.",
-        "3": "Hornef N, Olbrich H, Horvath J, et al. DNAH5 mutations are a common cause of primary ciliary dyskinesia with outer dynein arm defects. Am J Respir Crit Care Med. 2006;174(2):120-126.",
-        "4": "Davis SD, Ferkol TW, Rosenfeld M, et al. Clinical features of childhood primary ciliary dyskinesia by genotype and ultrastructural phenotype. Am J Respir Crit Care Med. 2015;191(3):316-324.",
-        "5": "Fliegauf M, Olbrich H, Horvath J, et al. Mislocalization of DNAH5 and DNAH9 in respiratory cells from patients with primary ciliary dyskinesia. Am J Respir Crit Care Med. 2005;171(12):1343-1349.",
-        "6": "Olbrich H, Haffner K, Kispert A, et al. Mutations in DNAH5 cause primary ciliary dyskinesia and randomization of left-right asymmetry. Nat Genet. 2002;30(2):143-144.",
-        "7": "Vanaken GJ, Bassinet L, Boon M, et al. Infertility in an adult cohort with primary ciliary dyskinesia: phenotype-gene association. Eur Respir J. 2017;50(5).",
-        "8": "Zuccarello D, Ferlin A, Cazzadore C, et al. Mutations in dynein genes in patients affected by isolated non-syndromic asthenozoospermia. Human Reproduction. 2008;23(8):1957-1962.",
-        "9": "Shoemark A, Rubbo B, Legendre M, et al. Topological data analysis reveals genotype–phenotype relationships in primary ciliary dyskinesia. European Respiratory Journal. 2021;58(2):2002359.",
-        "10": "Failly M, Bartoloni L, Letourneau A, et al. Mutations in DNAH5 account for only 15% of a non-preselected cohort of patients with primary ciliary dyskinesia. J Med Genet. 2009;46(4):281-286.",
-        "11": "Hannah WB, Seifert BA, Truty R, et al. The global prevalence and ethnic heterogeneity of primary ciliary dyskinesia gene variants: a genetic database analysis. Lancet Respir Med. 2022;10(5):459-468.",
-        "12": "Guichard C, Harricane M-C, Lafitte J-J, et al. Axonemal Dynein Intermediate-Chain Gene (DNAI1) Mutations Result in Situs Inversus and Primary Ciliary Dyskinesia (Kartagener Syndrome). The American Journal of Human Genetics. 2001;68(4):1030-1035.",
-        "13": "Pennarun G, Escudier E, Chapelin C, et al. Loss-of-function mutations in a human gene related to Chlamydomonas reinhardtii dynein IC78 result in primary ciliary dyskinesia. Am J Hum Genet. 1999;65(6):1508-1519.",
-        "14": "Zariwala MA, Leigh MW, Ceppa F, et al. Mutations of DNAI1 in primary ciliary dyskinesia: evidence of founder effect in a common mutation. Am J Respir Crit Care Med. 2006;174(8):858-866.",
-        "15": "Failly M, Saitta A, Munoz A, et al. DNAI1 mutations explain only 2% of primary ciliary dykinesia. Respiration. 2008;76(2):198-204.",
-        "16": "Mazor M, Alkrinawi S, Chalifa-Caspi V, et al. Primary ciliary dyskinesia caused by homozygous mutation in DNAL1, encoding dynein light chain 1. Am J Hum Genet. 2011;88(5):599-607.",
-        "17": "Poplawska K, Griffiths A, Temme R, Adamko DJ, Nykamp K, Shapiro AJ. Deletions in DNAL1 Cause Primary Ciliary Dyskinesia Across North American Indigenous Populations. J Pediatr. 2023;261:113362.",
-        "18": "Knowles MR, Leigh MW, Carson JL, et al. Mutations of DNAH11 in patients with primary ciliary dyskinesia with normal ciliary ultrastructure. Thorax. 2012;67(5):433-441.",
-        "19": "Schwabe GC, Hoffmann K, Loges NT, et al. Primary ciliary dyskinesia associated with normal axoneme ultrastructure is caused by DNAH11 mutations. Hum Mutat. 2008;29(2):289-298.",
-        "20": "Shoemark A, Burgoyne T, Kwan R, et al. Primary ciliary dyskinesia with normal ultrastructure: three-dimensional tomography detects absence of DNAH11. European Respiratory Journal. 2018;51(2):1701809"
+  "references": {
+    "reference_1": {
+      "bibtex_identifier": "loges2008dnai2",
+      "bibtex": {
+        "type": "article",
+        "title": "DNAI2 mutations cause primary ciliary dyskinesia with defects in the outer dynein arm",
+        "author": "Loges, Niki Tomas and Olbrich, Heike and Fenske, Lale and Mussaffi, Huda and Horvath, Judit and Fliegauf, Manfred and Kuhl, Heiner and Baktai, Gyorgy and Peterffy, Erzsebet and Chodhari, Rahul and others",
+        "journal": "The American Journal of Human Genetics",
+        "volume": "83",
+        "number": "5",
+        "pages": "547--558",
+        "year": "2008",
+        "publisher": "Elsevier",
+        "doi": "https://doi.org/10.1016/j.ajhg.2008.10.001",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(08)00534-X"
+      }
+    },
+    "reference_2": {
+      "bibtex_identifier": "leigh2016clinical",
+      "bibtex": {
+        "type": "article",
+        "title": "Clinical Features and Associated Likelihood of Primary Ciliary Dyskinesia in Children and Adolescents",
+        "author": "Leigh, Michael W and Ferkol, Thomas W and Davis, Stephanie D and others",
+        "journal": "Annals of the American Thoracic Society",
+        "volume": "13",
+        "number": "8",
+        "pages": "1305--1313",
+        "year": "2016",
+        "publisher": "American Thoracic Society",
+        "doi": "https://doi.org/10.1513/annalsats.201511-748oc",
+        "url": "https://www.atsjournals.org/doi/full/10.1513/AnnalsATS.201511-748OC"
+      }
+    },
+    "reference_3": {
+      "bibtex_identifier": "hornef2006dnah5",
+      "bibtex": {
+        "type": "article",
+        "title": "DNAH5 mutations are a common cause of primary ciliary dyskinesia with outer dynein arm defects",
+        "author": "Hornef, N and Olbrich, H and Horvath, J and others",
+        "journal": "Am J Respir Crit Care Med",
+        "volume": "174",
+        "number": "2",
+        "pages": "120--126",
+        "year": "2006",
+        "publisher": "American Thoracic Society",
+        "doi": "https://doi.org/10.1164/rccm.200601-084oc",
+        "url": "https://www.atsjournals.org/doi/full/10.1164/rccm.200601-084OC"
+      }
+    },
+    "reference_4": {
+      "bibtex_identifier": "davis2015clinical",
+      "bibtex": {
+        "type": "article",
+        "title": "Clinical features of childhood primary ciliary dyskinesia by genotype and ultrastructural phenotype",
+        "author": "Davis, SD and Ferkol, TW and Rosenfeld, M and others",
+        "journal": "Am J Respir Crit Care Med",
+        "volume": "191",
+        "number": "3",
+        "pages": "316--324",
+        "year": "2015",
+        "publisher": "American Thoracic Society",
+        "url": "https://www.atsjournals.org/doi/full/10.1164/rccm.201409-1672OC"
+      }
+    },
+    "reference_5": {
+      "bibtex_identifier": "fliegauf2005mislocalization",
+      "bibtex": {
+        "type": "article",
+        "title": "Mislocalization of DNAH5 and DNAH9 in respiratory cells from patients with primary ciliary dyskinesia",
+        "author": "Fliegauf, M and Olbrich, H and Horvath, J and others",
+        "journal": "Am J Respir Crit Care Med",
+        "volume": "171",
+        "number": "12",
+        "pages": "1343--1349",
+        "year": "2005",
+        "publisher": "American Thoracic Society",
+        "doi": "https://doi.org/10.1164/rccm.200411-1583oc",
+        "url": "https://www.atsjournals.org/doi/full/10.1164/rccm.200411-1583OC"
+      }
+    },
+    "reference_6": {
+      "bibtex_identifier": "olbrich2002dnah5",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in DNAH5 cause primary ciliary dyskinesia and randomization of left-right asymmetry",
+        "author": "Olbrich, H and Haffner, K and Kispert, A and others",
+        "journal": "Nat Genet",
+        "volume": "30",
+        "number": "2",
+        "pages": "143--144",
+        "year": "2002",
+        "publisher": "Nature Publishing Group",
+        "doi": "https://doi.org/10.1038/ng817",
+        "url": "https://www.nature.com/articles/ng817z"
+      }
+    },
+    "reference_7": {
+      "bibtex_identifier": "vanaken2017infertility",
+      "bibtex": {
+        "type": "article",
+        "title": "Infertility in an adult cohort with primary ciliary dyskinesia: phenotype-gene association",
+        "author": "Vanaken, GJ and Bassinet, L and Boon, M and others",
+        "journal": "Eur Respir J",
+        "volume": "50",
+        "number": "5",
+        "year": "2017",
+        "publisher": "European Respiratory Society",
+        "doi": "https://doi.org/10.1183/13993003.00314-2017",
+        "url": "https://erj.ersjournals.com/content/50/5/1700314.short"
+      }
+    },
+    "reference_8": {
+      "bibtex_identifier": "zuccarello2008mutations",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in dynein genes in patients affected by isolated non-syndromic asthenozoospermia",
+        "author": "Zuccarello, D and Ferlin, A and Cazzadore, C and others",
+        "journal": "Hum Reprod",
+        "volume": "23",
+        "number": "8",
+        "pages": "1957--1962",
+        "year": "2008",
+        "publisher": "Oxford University Press",
+        "doi": "https://doi.org/10.1093/humrep/den193",
+        "url": "https://www.example.com/8"
+      }
+    },
+    "reference_9": {
+      "bibtex_identifier": "shoemark2021tda",
+      "bibtex": {
+        "type": "article",
+        "title": "Topological data analysis reveals genotype–phenotype relationships in primary ciliary dyskinesia",
+        "author": "Shoemark, Amelia and Rubbo, Benoit and Legendre, Matthieu and others",
+        "journal": "European Respiratory Journal",
+        "volume": "58",
+        "number": "2",
+        "pages": "2002359",
+        "year": "2021",
+        "publisher": "European Respiratory Society",
+        "doi": "https://doi.org/10.1183/13993003.02359-2020",
+        "url": "http://dx.doi.org/10.1183/13993003.02359-2020"
+      }
+    },
+    "reference_10": {
+      "bibtex_identifier": "failly2009dnah5",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in DNAH5 account for only 15% of a non-preselected cohort of patients with primary ciliary dyskinesia",
+        "author": "Failly, M and Bartoloni, L and Letourneau, A and others",
+        "journal": "J Med Genet",
+        "volume": "46",
+        "number": "4",
+        "pages": "281--286",
+        "year": "2009",
+        "publisher": "BMJ Publishing Group Ltd",
+        "doi": "https://doi.org/10.1136/jmg.2008.061176",
+        "url": "http://dx.doi.org/10.1136/jmg.2008.061176"
+      }
+    },
+    "reference_11": {
+      "bibtex_identifier": "hannah2022prevalence",
+      "bibtex": {
+        "type": "article",
+        "title": "The global prevalence and ethnic heterogeneity of primary ciliary dyskinesia gene variants: a genetic database analysis",
+        "author": "Hannah, WB and Seifert, BA and Truty, R and others",
+        "journal": "Lancet Respir Med",
+        "volume": "10",
+        "number": "5",
+        "pages": "459--468",
+        "year": "2022",
+        "publisher": "Elsevier",
+        "doi": "https://doi.org/10.1016/s2213-2600(21)00453-7",
+        "url": "10.1016/s2213-2600(21)00453-7"
+      }
+    },
+    "reference_12": {
+      "bibtex_identifier": "guichard2001dnaic1",
+      "bibtex": {
+        "type": "article",
+        "title": "Axonemal Dynein Intermediate-Chain Gene (DNAI1) Mutations Result in Situs Inversus and Primary Ciliary Dyskinesia (Kartagener Syndrome)",
+        "author": "Guichard, C and Harricane, M-C and Lafitte, J-J and others",
+        "journal": "The American Journal of Human Genetics",
+        "volume": "68",
+        "number": "4",
+        "pages": "1030--1035",
+        "year": "2001",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/12"
+      }
+    },
+    "reference_13": {
+      "bibtex_identifier": "pennarun1999dynein",
+      "bibtex": {
+        "type": "article",
+        "title": "Loss-of-function mutations in a human gene related to Chlamydomonas reinhardtii dynein IC78 result in primary ciliary dyskinesia",
+        "author": "Pennarun, G and Escudier, E and Chapelin, C and others",
+        "journal": "Am J Hum Genet",
+        "volume": "65",
+        "number": "6",
+        "pages": "1508--1519",
+        "year": "1999",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/13"
+      }
+    },
+    "reference_14": {
+      "bibtex_identifier": "zariwala2006dnai1",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations of DNAI1 in primary ciliary dyskinesia: evidence of founder effect in a common mutation",
+        "author": "Zariwala, MA and Leigh, MW and Ceppa, F and others",
+        "journal": "Am J Respir Crit Care Med",
+        "volume": "174",
+        "number": "8",
+        "pages": "858--866",
+        "year": "2006",
+        "publisher": "American Thoracic Society",
+        "url": "https://www.example.com/14"
+      }
+    },
+    "reference_15": {
+      "bibtex_identifier": "failly2008dnaic1",
+      "bibtex": {
+        "type": "article",
+        "title": "DNAI1 mutations explain only 2% of primary ciliary dykinesia",
+        "author": "Failly, M and Saitta, A and Munoz, A and others",
+        "journal": "Respiration",
+        "volume": "76",
+        "number": "2",
+        "pages": "198--204",
+        "year": "2008",
+        "publisher": "Karger Publishers",
+        "url": "https://www.example.com/15"
+      }
+    },
+    "reference_16": {
+      "bibtex_identifier": "mazor2011dnal1",
+      "bibtex": {
+        "type": "article",
+        "title": "Primary ciliary dyskinesia caused by homozygous mutation in DNAL1, encoding dynein light chain 1",
+        "author": "Mazor, M and Alkrinawi, S and Chalifa-Caspi, V and others",
+        "journal": "Am J Hum Genet",
+        "volume": "88",
+        "number": "5",
+        "pages": "599--607",
+        "year": "2011",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/16"
+      }
+    },
+    "reference_17": {
+      "bibtex_identifier": "poplawska2023dnal1",
+      "bibtex": {
+        "type": "article",
+        "title": "Deletions in DNAL1 Cause Primary Ciliary Dyskinesia Across North American Indigenous Populations",
+        "author": "Poplawska, K and Griffiths, A and Temme, R and others",
+        "journal": "J Pediatr",
+        "volume": "261",
+        "pages": "113362",
+        "year": "2023",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/17"
+      }
+    },
+    "reference_18": {
+      "bibtex_identifier": "knowles2012dnah11",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations of DNAH11 in patients with primary ciliary dyskinesia with normal ciliary ultrastructure",
+        "author": "Knowles, MR and Leigh, MW and Carson, JL and others",
+        "journal": "Thorax",
+        "volume": "67",
+        "number": "5",
+        "pages": "433--441",
+        "year": "2012",
+        "publisher": "BMJ Publishing Group Ltd",
+        "url": "https://www.example.com/18"
+      }
+    },
+    "reference_19": {
+      "bibtex_identifier": "schwabe2008dnah11",
+      "bibtex": {
+        "type": "article",
+        "title": "Primary ciliary dyskinesia associated with normal axoneme ultrastructure is caused by DNAH11 mutations",
+        "author": "Schwabe, GC and Hoffmann, K and Loges, NT and others",
+        "journal": "Hum Mutat",
+        "volume": "29",
+        "number": "2",
+        "pages": "289--298",
+        "year": "2008",
+        "publisher": "Wiley-Liss, Inc.",
+        "url": "https://www.example.com/19"
+      }
+    },
+    "reference_20": {
+      "bibtex_identifier": "shoemark2018dnah11",
+      "bibtex": {
+        "type": "article",
+        "title": "Primary ciliary dyskinesia with normal ultrastructure: three-dimensional tomography detects absence of DNAH11",
+        "author": "Shoemark, A and Burgoyne, T and Kwan, R and others",
+        "journal": "European Respiratory Journal",
+        "volume": "51",
+        "number": "2",
+        "pages": "1701809",
+        "year": "2018",
+        "publisher": "European Respiratory Society",
+        "url": "https://www.example.com/20"
+      }
+    },
+    "reference_21": {
+      "bibtex_identifier": "pifferi2010dnah11",
+      "bibtex": {
+        "type": "article",
+        "title": "New DNAH11 mutations in primary ciliary dyskinesia with normal axonemal ultrastructure",
+        "author": "Pifferi, M and Michelucci, A and Conidi, ME and others",
+        "journal": "Eur Respir J",
+        "volume": "35",
+        "number": "6",
+        "pages": "1413--1416",
+        "year": "2010",
+        "publisher": "European Respiratory Society",
+        "url": "https://www.example.com/21"
+      }
+    },
+    "reference_22": {
+      "bibtex_identifier": "lucas2012dnahc11",
+      "bibtex": {
+        "type": "article",
+        "title": "Static respiratory cilia associated with mutations in Dnahc11/DNAH11: a mouse model of PCD",
+        "author": "Lucas, JS and Adam, EC and Goggin, PM and others",
+        "journal": "Hum Mutat",
+        "volume": "33",
+        "number": "3",
+        "pages": "495--503",
+        "year": "2012",
+        "publisher": "Wiley-Liss, Inc.",
+        "url": "https://www.example.com/22"
+      }
+    },
+    "reference_23": {
+      "bibtex_identifier": "onoufriadis2013ccdc114",
+      "bibtex": {
+        "type": "article",
+        "title": "Splice-site mutations in the axonemal outer dynein arm docking complex gene CCDC114 cause primary ciliary dyskinesia",
+        "author": "Onoufriadis, A and Paff, T and Antony, D and others",
+        "journal": "Am J Hum Genet",
+        "volume": "92",
+        "number": "1",
+        "pages": "88--98",
+        "year": "2013",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/23"
+      }
+    },
+    "reference_24": {
+      "bibtex_identifier": "hjeij2013armc4",
+      "bibtex": {
+        "type": "article",
+        "title": "ARMC4 mutations cause primary ciliary dyskinesia with randomization of left/right body asymmetry",
+        "author": "Hjeij, R and Lindstrand, A and Francis, R and others",
+        "journal": "Am J Hum Genet",
+        "volume": "93",
+        "number": "2",
+        "pages": "357--367",
+        "year": "2013",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/24"
+      }
+    },
+    "reference_25": {
+      "bibtex_identifier": "onoufriadis2014armc4",
+      "bibtex": {
+        "type": "article",
+        "title": "Combined exome and whole-genome sequencing identifies mutations in ARMC4 as a cause of primary ciliary dyskinesia with defects in the outer dynein arm",
+        "author": "Onoufriadis, A and Shoemark, A and Munye, MM and others",
+        "journal": "J Med Genet",
+        "volume": "51",
+        "number": "1",
+        "pages": "61--67",
+        "year": "2014",
+        "publisher": "BMJ Publishing Group Ltd",
+        "url": "https://www.example.com/25"
+      }
+    },
+    "reference_26": {
+      "bibtex_identifier": "hjeij2014ccdc151",
+      "bibtex": {
+        "type": "article",
+        "title": "CCDC151 mutations cause primary ciliary dyskinesia by disruption of the outer dynein arm docking complex formation",
+        "author": "Hjeij, R and Onoufriadis, A and Watson, CM and others",
+        "journal": "Am J Hum Genet",
+        "volume": "95",
+        "number": "3",
+        "pages": "257--274",
+        "year": "2014",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/26"
+      }
+    },
+    "reference_27": {
+      "bibtex_identifier": "panizzi2012ccdc103",
+      "bibtex": {
+        "type": "article",
+        "title": "CCDC103 mutations cause primary ciliary dyskinesia by disrupting assembly of ciliary dynein arms",
+        "author": "Panizzi, JR and Becker-Heck, A and Castleman, VH and others",
+        "journal": "Nat Genet",
+        "volume": "44",
+        "number": "6",
+        "pages": "714--719",
+        "year": "2012",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/27"
+      }
+    },
+    "reference_28": {
+      "bibtex_identifier": "pereira2019ccdc103",
+      "bibtex": {
+        "type": "article",
+        "title": "Characterization of CCDC103 expression profiles: further insights in primary ciliary dyskinesia and in human reproduction",
+        "author": "Pereira, R and Oliveira, ME and Santos, R and others",
+        "journal": "J Assist Reprod Genet",
+        "volume": "36",
+        "number": "8",
+        "pages": "1683--1700",
+        "year": "2019",
+        "publisher": "Springer",
+        "url": "https://www.example.com/28"
+      }
+    },
+    "reference_29": {
+      "bibtex_identifier": "pereira2015ccdc103",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutation analysis in patients with total sperm immotility",
+        "author": "Pereira, R and Oliveira, J and Ferraz, L and others",
+        "journal": "J Assist Reprod Genet",
+        "volume": "32",
+        "number": "6",
+        "pages": "893--902",
+        "year": "2015",
+        "publisher": "Springer",
+        "url": "https://www.example.com/29"
+      }
+    },
+    "reference_30": {
+      "bibtex_identifier": "luongo2023ccdc103",
+      "bibtex": {
+        "type": "article",
+        "title": "Case report: The CCDC103 variant causes ultrastructural sperm axonemal defects and total sperm immotility in a professional athlete without primary ciliary diskinesia",
+        "author": "Luongo, FP and Luddi, A and Ponchia, R and others",
+        "journal": "Frontiers in Genetics",
+        "volume": "14",
+        "year": "2023",
+        "publisher": "Frontiers",
+        "url": "https://www.example.com/30"
+      }
+    },
+    "reference_31": {
+      "bibtex_identifier": "duquesnoy2009oda7",
+      "bibtex": {
+        "type": "article",
+        "title": "Loss-of-function mutations in the human ortholog of Chlamydomonas reinhardtii ODA7 disrupt dynein arm assembly and cause primary ciliary dyskinesia",
+        "author": "Duquesnoy, P and Escudier, E and Vincensini, L and others",
+        "journal": "Am J Hum Genet",
+        "volume": "85",
+        "number": "6",
+        "pages": "890--896",
+        "year": "2009",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/31"
+      }
+    },
+    "reference_32": {
+      "bibtex_identifier": "loges2009lrrc50",
+      "bibtex": {
+        "type": "article",
+        "title": "Deletions and point mutations of LRRC50 cause primary ciliary dyskinesia due to dynein arm defects",
+        "author": "Loges, NT and Olbrich, H and Becker-Heck, A and others",
+        "journal": "Am J Hum Genet",
+        "volume": "85",
+        "number": "6",
+        "pages": "883--889",
+        "year": "2009",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/32"
+      }
+    },
+    "reference_33": {
+      "bibtex_identifier": "omran2008ktu",
+      "bibtex": {
+        "type": "article",
+        "title": "Ktu/PF13 is required for cytoplasmic pre-assembly of axonemal dyneins",
+        "author": "Omran, H and Kobayashi, D and Olbrich, H and others",
+        "journal": "Nature",
+        "volume": "456",
+        "number": "7222",
+        "pages": "611--616",
+        "year": "2008",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/33"
+      }
+    },
+    "reference_34": {
+      "bibtex_identifier": "mitchison2012dnaaf3",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in axonemal dynein assembly factor DNAAF3 cause primary ciliary dyskinesia",
+        "author": "Mitchison, HM and Schmidts, M and Loges, NT and others",
+        "journal": "Nat Genet",
+        "volume": "44",
+        "number": "4",
+        "pages": "381--389",
+        "year": "2012",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/34"
+      }
+    },
+    "reference_35": {
+      "bibtex_identifier": "tarkar2013dyx1c1",
+      "bibtex": {
+        "type": "article",
+        "title": "DYX1C1 is required for axonemal dynein assembly and ciliary motility",
+        "author": "Tarkar, A and Loges, NT and Slagle, CE and others",
+        "journal": "Nat Genet",
+        "volume": "45",
+        "number": "9",
+        "pages": "995--1003",
+        "year": "2013",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/35"
+      }
+    },
+    "reference_36": {
+      "bibtex_identifier": "horani2012heatr2",
+      "bibtex": {
+        "type": "article",
+        "title": "Whole-exome capture and sequencing identifies HEATR2 mutation as a cause of primary ciliary dyskinesia",
+        "author": "Horani, A and Druley, TE and Zariwala, MA and others",
+        "journal": "Am J Hum Genet",
+        "volume": "91",
+        "number": "4",
+        "pages": "685--693",
+        "year": "2012",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/36"
+      }
+    },
+    "reference_37": {
+      "bibtex_identifier": "diggle2014heatr2",
+      "bibtex": {
+        "type": "article",
+        "title": "HEATR2 plays a conserved role in assembly of the ciliary motile apparatus",
+        "author": "Diggle, CP and Moore, DJ and Mali, G and others",
+        "journal": "PLoS Genet",
+        "volume": "10",
+        "number": "9",
+        "pages": "e1004577",
+        "year": "2014",
+        "publisher": "Public Library of Science",
+        "url": "https://www.example.com/37"
+      }
+    },
+    "reference_38": {
+      "bibtex_identifier": "olcese2017pih1d3",
+      "bibtex": {
+        "type": "article",
+        "title": "X-linked primary ciliary dyskinesia due to mutations in the cytoplasmic axonemal dynein assembly factor PIH1D3",
+        "author": "Olcese, C and Patel, MP and Shoemark, A and others",
+        "journal": "Nat Commun",
+        "volume": "8",
+        "pages": "14279",
+        "year": "2017",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/38"
+      }
+    },
+    "reference_39": {
+      "bibtex_identifier": "paff2017pih1d3",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in PIH1D3 Cause X-Linked Primary Ciliary Dyskinesia with Outer and Inner Dynein Arm Defects",
+        "author": "Paff, T and Loges, NT and Aprea, I and others",
+        "journal": "Am J Hum Genet",
+        "volume": "100",
+        "number": "1",
+        "pages": "160--168",
+        "year": "2017",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/39"
+      }
+    },
+    "reference_40": {
+      "bibtex_identifier": "zariwala2013zmynd10",
+      "bibtex": {
+        "type": "article",
+        "title": "ZMYND10 is mutated in primary ciliary dyskinesia and interacts with LRRC6",
+        "author": "Zariwala, MA and Gee, HY and Kurkowiak, M and others",
+        "journal": "Am J Hum Genet",
+        "volume": "93",
+        "number": "2",
+        "pages": "336--345",
+        "year": "2013",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/40"
+      }
+    },
+    "reference_41": {
+      "bibtex_identifier": "moore2013zmynd10",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in ZMYND10, a gene essential for proper axonemal assembly of inner and outer dynein arms in humans and flies, cause primary ciliary dyskinesia",
+        "author": "Moore, DJ and Onoufriadis, A and Shoemark, A and others",
+        "journal": "Am J Hum Genet",
+        "volume": "93",
+        "number": "2",
+        "pages": "346--356",
+        "year": "2013",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/41"
+      }
+    },
+    "reference_42": {
+      "bibtex_identifier": "ozkavukcu2018lava",
+      "bibtex": {
+        "type": "article",
+        "title": "Live birth after Laser Assisted Viability Assessment (LAVA) to detect pentoxifylline resistant ejaculated immotile spermatozoa during ICSI in a couple with male Kartagener's syndrome",
+        "author": "Ozkavukcu, S and Celik-Ozenci, C and Konuk, E and Atabekoglu, C",
+        "journal": "Reprod Biol Endocrinol",
+        "volume": "16",
+        "number": "1",
+        "pages": "10",
+        "year": "2018",
+        "publisher": "BioMed Central",
+        "url": "https://www.example.com/42"
+      }
+    },
+    "reference_43": {
+      "bibtex_identifier": "kott2012lrrc6",
+      "bibtex": {
+        "type": "article",
+        "title": "Loss-of-function mutations in LRRC6, a gene essential for proper axonemal assembly of inner and outer dynein arms, cause primary ciliary dyskinesia",
+        "author": "Kott, E and Duquesnoy, P and Copin, B and others",
+        "journal": "Am J Hum Genet",
+        "volume": "91",
+        "number": "5",
+        "pages": "958--964",
+        "year": "2012",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/43"
+      }
+    },
+    "reference_44": {
+      "bibtex_identifier": "liu2018lrrc6",
+      "bibtex": {
+        "type": "article",
+        "title": "Whole-Exome Sequencing Identified a Novel Compound Heterozygous Mutation of LRRC6 in a Chinese Primary Ciliary Dyskinesia Patient",
+        "author": "Liu, L and Luo, H",
+        "journal": "Biomed Res Int",
+        "volume": "2018",
+        "pages": "1854269",
+        "year": "2018",
+        "publisher": "Hindawi",
+        "url": "https://www.example.com/44"
+      }
+    },
+    "reference_45": {
+      "bibtex_identifier": "knowles2013spag1",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in SPAG1 cause primary ciliary dyskinesia associated with defective outer and inner dynein arms",
+        "author": "Knowles, MR and Ostrowski, LE and Leigh, MW and others",
+        "journal": "Am J Hum Genet",
+        "volume": "93",
+        "number": "4",
+        "pages": "711--720",
+        "year": "2013",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/45"
+      }
+    },
+    "reference_46": {
+      "bibtex_identifier": "austin2013ciliopathy",
+      "bibtex": {
+        "type": "article",
+        "title": "Zebrafish Ciliopathy Screen Plus Human Mutational Analysis Identifies C21orf59 and CCDC65 Defects as Causing Primary Ciliary Dyskinesia",
+        "author": "Austin-Tse, C and Halbritter, J and Zariwala, MA and others",
+        "journal": "Am J Hum Genet",
+        "volume": "93",
+        "number": "4",
+        "pages": "672--686",
+        "year": "2013",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/46"
+      }
+    },
+    "reference_47": {
+      "bibtex_identifier": "king2016axonemal",
+      "bibtex": {
+        "type": "article",
+        "title": "Axonemal Dynein Arms",
+        "author": "King, SM",
+        "journal": "Cold Spring Harb Perspect Biol",
+        "volume": "8",
+        "number": "11",
+        "year": "2016",
+        "publisher": "Cold Spring Harbor Laboratory Press",
+        "url": "https://www.example.com/47"
+      }
+    },
+    "reference_48": {
+      "bibtex_identifier": "antony2013ccdc39",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in CCDC39 and CCDC40 are the major cause of primary ciliary dyskinesia with axonemal disorganization and absent inner dynein arms",
+        "author": "Antony, D and Becker-Heck, A and Zariwala, MA and others",
+        "journal": "Hum Mutat",
+        "volume": "34",
+        "number": "3",
+        "pages": "462--472",
+        "year": "2013",
+        "publisher": "Wiley-Liss, Inc.",
+        "url": "https://www.example.com/48"
+      }
+    },
+    "reference_49": {
+      "bibtex_identifier": "merveille2011ccdc39",
+      "bibtex": {
+        "type": "article",
+        "title": "CCDC39 is required for assembly of inner dynein arms and the dynein regulatory complex and for normal ciliary motility in humans and dogs",
+        "author": "Merveille, AC and Davis, EE and Becker-Heck, A and others",
+        "journal": "Nat Genet",
+        "volume": "43",
+        "number": "1",
+        "pages": "72--78",
+        "year": "2011",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/49"
+      }
+    },
+    "reference_50": {
+      "bibtex_identifier": "blanchon2012ccdc39",
+      "bibtex": {
+        "type": "article",
+        "title": "Delineation of CCDC39/CCDC40 mutation spectrum and associated phenotypes in primary ciliary dyskinesia",
+        "author": "Blanchon, S and Legendre, M and Copin, B and others",
+        "journal": "J Med Genet",
+        "volume": "49",
+        "number": "6",
+        "pages": "410--416",
+        "year": "2012",
+        "publisher": "BMJ Publishing Group Ltd",
+        "url": "https://www.example.com/50"
+      }
+    },
+    "reference_51": {
+      "bibtex_identifier": "davis2019longitudinal",
+      "bibtex": {
+        "type": "article",
+        "title": "Primary Ciliary Dyskinesia: Longitudinal Study of Lung Disease by Ultrastructure Defect and Genotype",
+        "author": "Davis, SD and Rosenfeld, M and Lee, HS and others",
+        "journal": "Am J Respir Crit Care Med",
+        "volume": "199",
+        "number": "2",
+        "pages": "190--198",
+        "year": "2019",
+        "publisher": "American Thoracic Society",
+        "url": "https://www.example.com/51"
+      }
+    },
+    "reference_52": {
+      "bibtex_identifier": "becker2011ccdc40",
+      "bibtex": {
+        "type": "article",
+        "title": "The coiled-coil domain containing protein CCDC40 is essential for motile cilia function and left-right axis formation",
+        "author": "Becker-Heck, A and Zohn, IE and Okabe, N and others",
+        "journal": "Nat Genet",
+        "volume": "43",
+        "number": "1",
+        "pages": "79--84",
+        "year": "2011",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/52"
+      }
+    },
+    "reference_53": {
+      "bibtex_identifier": "crowley2019eradication",
+      "bibtex": {
+        "type": "article",
+        "title": "Variation in treatment strategies for the eradication of Pseudomonas aeruginosa in primary ciliary dyskinesia across European centers",
+        "author": "Crowley, S and Holgersen, MG and Nielsen, KG",
+        "journal": "Chron Respir Dis",
+        "volume": "16",
+        "pages": "1479972318787919",
+        "year": "2019",
+        "publisher": "SAGE Publications",
+        "url": "https://www.example.com/53"
+      }
+    },
+    "reference_54": {
+      "bibtex_identifier": "olbrich2012hydin",
+      "bibtex": {
+        "type": "article",
+        "title": "Recessive HYDIN mutations cause primary ciliary dyskinesia without randomization of left-right body asymmetry",
+        "author": "Olbrich, H and Schmidts, M and Werner, C and others",
+        "journal": "Am J Hum Genet",
+        "volume": "91",
+        "number": "4",
+        "pages": "672--684",
+        "year": "2012",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/54"
+      }
+    },
+    "reference_55": {
+      "bibtex_identifier": "cindric2020spef2",
+      "bibtex": {
+        "type": "article",
+        "title": "SPEF2- and HYDIN-Mutant Cilia Lack the Central Pair–associated Protein SPEF2, Aiding Primary Ciliary Dyskinesia Diagnostics",
+        "author": "Cindrić, S and Dougherty, GW and Olbrich, H and others",
+        "journal": "American Journal of Respiratory Cell and Molecular Biology",
+        "volume": "62",
+        "number": "3",
+        "pages": "382--396",
+        "year": "2020",
+        "publisher": "American Thoracic Society",
+        "url": "https://www.example.com/55"
+      }
+    },
+    "reference_56": {
+      "bibtex_identifier": "olbrich2015gas8",
+      "bibtex": {
+        "type": "article",
+        "title": "Loss-of-Function GAS8 Mutations Cause Primary Ciliary Dyskinesia and Disrupt the Nexin-Dynein Regulatory Complex",
+        "author": "Olbrich, H and Cremers, C and Loges, NT and others",
+        "journal": "Am J Hum Genet",
+        "volume": "97",
+        "number": "4",
+        "pages": "546--554",
+        "year": "2015",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/56"
+      }
+    },
+    "reference_57": {
+      "bibtex_identifier": "jeanson2016gas8",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in GAS8, a Gene Encoding a Nexin-Dynein Regulatory Complex Subunit, Cause Primary Ciliary Dyskinesia with Axonemal Disorganization",
+        "author": "Jeanson, L and Thomas, L and Copin, B and others",
+        "journal": "Hum Mutat",
+        "volume": "37",
+        "number": "8",
+        "pages": "776--785",
+        "year": "2016",
+        "publisher": "Wiley-Liss, Inc.",
+        "url": "https://www.example.com/57"
+      }
+    },
+    "reference_58": {
+      "bibtex_identifier": "horani2013ccdc65",
+      "bibtex": {
+        "type": "article",
+        "title": "CCDC65 mutation causes primary ciliary dyskinesia with normal ultrastructure and hyperkinetic cilia",
+        "author": "Horani, A and Brody, SL and Ferkol, TW and others",
+        "journal": "PLoS One",
+        "volume": "8",
+        "number": "8",
+        "pages": "e72299",
+        "year": "2013",
+        "publisher": "Public Library of Science",
+        "url": "https://www.example.com/58"
+      }
+    },
+    "reference_59": {
+      "bibtex_identifier": "wirschell2013drc1",
+      "bibtex": {
+        "type": "article",
+        "title": "The nexin-dynein regulatory complex subunit DRC1 is essential for motile cilia function in algae and humans",
+        "author": "Wirschell, M and Olbrich, H and Werner, C and others",
+        "journal": "Nat Genet",
+        "volume": "45",
+        "number": "3",
+        "pages": "262--268",
+        "year": "2013",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/59"
+      }
+    },
+    "reference_60": {
+      "bibtex_identifier": "morimoto2019drc1",
+      "bibtex": {
+        "type": "article",
+        "title": "Recurring large deletion in DRC1 (CCDC164) identified as causing primary ciliary dyskinesia in two Asian patients",
+        "author": "Morimoto, K and Hijikata, M and Zariwala, MA and others",
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "volume": "7",
+        "number": "8",
+        "pages": "e838",
+        "year": "2019",
+        "publisher": "Wiley Periodicals",
+        "url": "https://www.example.com/60"
+      }
+    },
+    "reference_61": {
+      "bibtex_identifier": "castleman2009rsph9",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in radial spoke head protein genes RSPH9 and RSPH4A cause primary ciliary dyskinesia with central-microtubular-pair abnormalities",
+        "author": "Castleman, VH and Romio, L and Chodhari, R and others",
+        "journal": "Am J Hum Genet",
+        "volume": "84",
+        "number": "2",
+        "pages": "197--209",
+        "year": "2009",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/61"
+      }
+    },
+    "reference_62": {
+      "bibtex_identifier": "zietkiewicz2012rsph",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in radial spoke head genes and ultrastructural cilia defects in East-European cohort of primary ciliary dyskinesia patients",
+        "author": "Ziętkiewicz, E and Bukowy-Bieryłło, Z and Voelkel, K and others",
+        "journal": "PLoS One",
+        "volume": "7",
+        "number": "3",
+        "pages": "e33667",
+        "year": "2012",
+        "publisher": "Public Library of Science",
+        "url": "https://www.example.com/62"
+      }
+    },
+    "reference_63": {
+      "bibtex_identifier": "daniels2013rsph4a",
+      "bibtex": {
+        "type": "article",
+        "title": "Founder mutation in RSPH4A identified in patients of Hispanic descent with primary ciliary dyskinesia",
+        "author": "Daniels, ML and Leigh, MW and Davis, SD and others",
+        "journal": "Hum Mutat",
+        "volume": "34",
+        "number": "10",
+        "pages": "1352--1356",
+        "year": "2013",
+        "publisher": "Wiley-Liss, Inc.",
+        "url": "https://www.example.com/63"
+      }
+    },
+    "reference_64": {
+      "bibtex_identifier": "frommer2015rsph",
+      "bibtex": {
+        "type": "article",
+        "title": "Immunofluorescence Analysis and Diagnosis of Primary Ciliary Dyskinesia with Radial Spoke Defects",
+        "author": "Frommer, A and Hjeij, R and Loges, NT and others",
+        "journal": "Am J Respir Cell Mol Biol",
+        "volume": "53",
+        "number": "4",
+        "pages": "563--573",
+        "year": "2015",
+        "publisher": "American Thoracic Society",
+        "url": "https://www.example.com/64"
+      }
+    },
+    "reference_65": {
+      "bibtex_identifier": "shapiro2014laterality",
+      "bibtex": {
+        "type": "article",
+        "title": "Laterality Defects Other Than Situs Inversus Totalis in Primary Ciliary Dyskinesia: Insights Into Situs Ambiguus and Heterotaxy",
+        "author": "Shapiro, AJ and Davis, SD and Ferkol, T and others",
+        "journal": "Chest",
+        "volume": "146",
+        "number": "5",
+        "pages": "1176--1186",
+        "year": "2014",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/65"
+      }
+    },
+    "reference_66": {
+      "bibtex_identifier": "onoufriadis2014rsph1",
+      "bibtex": {
+        "type": "article",
+        "title": "Targeted NGS gene panel identifies mutations in RSPH1 causing primary ciliary dyskinesia and a common mechanism for ciliary central pair agenesis due to radial spoke defects",
+        "author": "Onoufriadis, A and Shoemark, A and Schmidts, M and others",
+        "journal": "Hum Mol Genet",
+        "volume": "23",
+        "number": "13",
+        "pages": "3362--3374",
+        "year": "2014",
+        "publisher": "Oxford University Press",
+        "url": "https://www.example.com/66"
+      }
+    },
+    "reference_67": {
+      "bibtex_identifier": "knowles2014rsph1",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in RSPH1 cause primary ciliary dyskinesia with a unique clinical and ciliary phenotype",
+        "author": "Knowles, MR and Ostrowski, LE and Leigh, MW and others",
+        "journal": "Am J Respir Crit Care Med",
+        "volume": "189",
+        "number": "6",
+        "pages": "707--717",
+        "year": "2014",
+        "publisher": "American Thoracic Society",
+        "url": "https://www.example.com/67"
+      }
+    },
+    "reference_68": {
+      "bibtex_identifier": "zysman2019nasal",
+      "bibtex": {
+        "type": "article",
+        "title": "Nasal Nitric Oxide in Primary Immunodeficiency and Primary Ciliary Dyskinesia: Helping to Distinguish Between Clinically Similar Diseases",
+        "author": "Zysman-Colman, ZN and Kaspy, KR and Alizadehfar, R and others",
+        "journal": "J Clin Immunol",
+        "volume": "39",
+        "number": "2",
+        "pages": "216--224",
+        "year": "2019",
+        "publisher": "Springer",
+        "url": "https://www.example.com/68"
+      }
+    },
+    "reference_69": {
+      "bibtex_identifier": "wallmeier2014ccno",
+      "bibtex": {
+        "type": "article",
+        "title": "Mutations in CCNO result in congenital mucociliary clearance disorder with reduced generation of multiple motile cilia",
+        "author": "Wallmeier, J and Al-Mutairi, DA and Chen, CT and others",
+        "journal": "Nat Genet",
+        "volume": "46",
+        "number": "6",
+        "pages": "646--651",
+        "year": "2014",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/69"
+      }
+    },
+    "reference_70": {
+      "bibtex_identifier": "best2019risk",
+      "bibtex": {
+        "type": "article",
+        "title": "Risk factors for situs defects and congenital heart disease in primary ciliary dyskinesia",
+        "author": "Best, S and Shoemark, A and Rubbo, B and others",
+        "journal": "Thorax",
+        "volume": "74",
+        "number": "2",
+        "pages": "203--205",
+        "year": "2019",
+        "publisher": "BMJ Publishing Group Ltd",
+        "url": "https://www.example.com/70"
+      }
+    },
+    "reference_71": {
+      "bibtex_identifier": "amirav2016ccno",
+      "bibtex": {
+        "type": "article",
+        "title": "Systematic Analysis of CCNO Variants in a Defined Population: Implications for Clinical Phenotype and Differential Diagnosis",
+        "author": "Amirav, I and Wallmeier, J and Loges, NT and others",
+        "journal": "Hum Mutat",
+        "volume": "37",
+        "number": "4",
+        "pages": "396--405",
+        "year": "2016",
+        "publisher": "Wiley-Liss, Inc.",
+        "url": "https://www.example.com/71"
+      }
+    },
+    "reference_72": {
+      "bibtex_identifier": "boon2014mcidas",
+      "bibtex": {
+        "type": "article",
+        "title": "MCIDAS mutations result in a mucociliary clearance disorder with reduced generation of multiple motile cilia",
+        "author": "Boon, M and Wallmeier, J and Ma, L and others",
+        "journal": "Nat Commun",
+        "volume": "5",
+        "pages": "4418",
+        "year": "2014",
+        "publisher": "Nature Publishing Group",
+        "url": "https://www.example.com/72"
+      }
+    },
+    "reference_73": {
+      "bibtex_identifier": "wallmeier2019foxj1",
+      "bibtex": {
+        "type": "article",
+        "title": "De Novo Mutations in FOXJ1 Result in a Motile Ciliopathy with Hydrocephalus and Randomization of Left/Right Body Asymmetry",
+        "author": "Wallmeier, J and Frank, D and Shoemark, A and others",
+        "journal": "Am J Hum Genet",
+        "volume": "105",
+        "number": "5",
+        "pages": "1030--1039",
+        "year": "2019",
+        "publisher": "Elsevier",
+        "url": "https://www.example.com/73"
+      }
+    },
+    "reference_74": {
+      "bibtex_identifier": "duriez2007variant",
+      "bibtex": {
+        "type": "article",
+        "title": "A common variant in combination with a nonsense mutation in a member of the thioredoxin family causes primary ciliary dyskinesia",
+        "author": "Duriez, B and Duquesnoy, P and Escudier, E and others",
+        "journal": "Proc Natl Acad Sci U S A",
+        "volume": "104",
+        "number": "9",
+        "pages": "3336--3341",
+        "year": "2007",
+        "publisher": "National Academy of Sciences",
+        "url": "https://www.example.com/74"
+      }
     }
+  }
 }
-
