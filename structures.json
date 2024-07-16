@@ -1,0 +1,11 @@
+{
+    "structures": {
+        "Outer dynein arm components": [
+            "DNAH5",
+            "DNAI1"
+        ],
+        "Outer dynein arm docking": [
+            "ODAD1"
+        ]
+    }
+}
