@@ -12,12 +12,14 @@ with open('structures.json') as f:
 with open('references.json') as f:
     references_data = json.load(f)['references']
 
+
 # Function to get gene information
 def get_gene_info(gene_name):
     for gene in genes_data:
         if gene["Gene"] == gene_name:
             return gene
     return None
+
 
 # Function to get full citation
 def get_full_citation(reference_key):
@@ -38,38 +40,44 @@ def get_full_citation(reference_key):
     return None
 
 
-# Function to display gene information
+
+# Function to display gene information with reordered references
 def display_gene_info(gene_info):
-    used_references = set()
+    used_references = {}
+    ref_counter = 1
+
+    def get_sequential_ref(ref):
+        nonlocal ref_counter
+        if ref not in used_references:
+            used_references[ref] = ref_counter
+            ref_counter += 1
+        return used_references[ref]
+
     for key, value in gene_info.items():
-        if key not in ["Gene", "Locus", "Other Names"] and value:
+        if key not in ["Gene", "Locus",
+                       "Other Names"] and value and value != "None":  # General rule to ignore "None" values
             if isinstance(value, list):
                 for sub_value in value:
                     text = sub_value['text']
                     references = sub_value['references']
-                    ref_numbers = references.split(', ')
-                    ref_text = ''.join([f"<sup>{ref.strip()}, </sup>" for ref in ref_numbers])
-                    # Remove the last comma and space
-                    ref_text = ref_text.rstrip(", </sup>") + '</sup>'
-                    st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
-                    used_references.update(ref_numbers)
+                    if references and references != "None":
+                        ref_numbers = references.split(', ')
+                        ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
+                        ref_text = ref_text.rstrip(", </sup>") + '</sup>'  # Remove the last comma and space
+                        st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
             else:
                 text = value['text']
                 references = value['references']
-                if references:
-                    ref_numbers = references.split(', ')
-                    ref_text = ''.join([f"<sup>{ref.strip()}, </sup>" for ref in ref_numbers])
-                    # Remove the last comma and space
-                    ref_text = ref_text.rstrip(", </sup>") + '</sup>'
-                    st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
-                    used_references.update(ref_numbers)
-                else:
-                    st.markdown(f"**{key}:** {text}")
+                if text != "None":  # Ignore elements with the value "None"
+                    if references and references != "None":
+                        ref_numbers = references.split(', ')
+                        ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
+                        ref_text = ref_text.rstrip(", </sup>") + '</sup>'  # Remove the last comma and space
+                        st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
+                    else:
+                        st.markdown(f"**{key}:** {text}")
+
     return used_references
-
-
-
-
 
 
 # Custom CSS to adjust the layout
@@ -133,12 +141,11 @@ if search_option == "Gene":
 
             with st.sidebar.expander("**References**"):
                 if used_references:
-                    valid_references = [ref for ref in used_references if ref.isdigit()]
-                    sorted_references = sorted(valid_references, key=int)
-                    for ref in sorted_references:
-                        full_citation = get_full_citation(f"reference_{ref}")
+                    sorted_references = sorted(used_references.items(), key=lambda x: x[1])
+                    for original_ref, new_ref in sorted_references:
+                        full_citation = get_full_citation(f"reference_{original_ref}")
                         if full_citation:
-                            st.markdown(f"<sup>{ref}</sup> {full_citation}", unsafe_allow_html=True)
+                            st.markdown(f"<sup>{new_ref}</sup> {full_citation}", unsafe_allow_html=True)
 
             with st.sidebar.expander("**Patient Database**"):
                 st.write("Patient Database information placeholder.")
@@ -146,7 +153,8 @@ if search_option == "Gene":
         else:
             st.sidebar.write("Gene not found.")
 elif search_option == "Structure":
-    structure_name = st.sidebar.selectbox("Select structure to view genes:", ["Select a structure"] + list(structures_data.keys()))
+    structure_name = st.sidebar.selectbox("Select structure to view genes:",
+                                          ["Select a structure"] + list(structures_data.keys()))
     if structure_name and structure_name != "Select a structure":
         genes_list = structures_data[structure_name]
         st.sidebar.header(f"Genes in {structure_name}:")
@@ -154,5 +162,3 @@ elif search_option == "Structure":
             gene_info = get_gene_info(gene)
             if gene_info:
                 st.sidebar.write(f"{gene_info['Gene']} - {gene_info['Locus']}")
-
-
