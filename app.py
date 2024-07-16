@@ -62,6 +62,10 @@ st.title("Cilia Structure Map")
 map_image = Image.open("map.png")
 st.image(map_image, width=900)
 
+# Sidebar interaction for search
+st.sidebar.title("Search and Filter")
+search_option = st.sidebar.selectbox("Search by", ["Gene", "Structure"])
+
 
 
 
