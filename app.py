@@ -66,6 +66,29 @@ st.image(map_image, width=900)
 st.sidebar.title("Search and Filter")
 search_option = st.sidebar.selectbox("Search by", ["Gene", "Structure"])
 
+if search_option == "Gene":
+    gene_name = st.sidebar.text_input("Enter gene name")
+    if gene_name:
+        gene_info = get_gene_info(gene_name)
+        if gene_info:
+            st.sidebar.header(f"Gene Information: {gene_info['Gene']}")
+            for key, value in gene_info.items():
+                if value and value != "None":  # Exclude elements with value "None"
+                    if isinstance(value, dict):  # Check if the value is a dictionary
+                        if value['references'] and value['references'] != "None":
+                            st.sidebar.markdown(f"**{key}**: {value['text']}<sup>{value['references']}</sup>", unsafe_allow_html=True)
+                        else:
+                            st.sidebar.markdown(f"**{key}**: {value['text']}")
+                    elif isinstance(value, list):  # Check if the value is a list
+                        for item in value:
+                            if item['references'] and item['references'] != "None":
+                                st.sidebar.markdown(f"**{key}**: {item['text']}<sup>{item['references']}</sup>", unsafe_allow_html=True)
+                            else:
+                                st.sidebar.markdown(f"**{key}**: {item['text']}")
+                    else:
+                        st.sidebar.markdown(f"**{key}**: {value}")
+        else:
+            st.sidebar.write("Gene not found.")
 
 
 
