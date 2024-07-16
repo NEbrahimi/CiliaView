@@ -1,0 +1,133 @@
+{
+    "genes": [
+        {
+            "Gene": "DNAH5",
+            "Other Names": "",
+            "Locus": "5p15.2",
+            "Protein function": {
+                "text": "ODA heavy chain component",
+                "references": "1"
+            },
+            "TEM": {
+                "text": "ODA defect",
+                "references": "2, 3, 4"
+            },
+            "IF": {
+                "text": "Absent DNAH5 and DNAH9",
+                "references": "3, 5"
+            },
+            "HSVMA": {
+                "text": "Immotile or severely reduced/stiff CBF",
+                "references": "5"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": ""
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "5, 6"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "5, 7, 8"
+            },
+            "Other clinical associations": {
+                "text": "Diverse phenotypes",
+                "references": "9"
+            },
+            "Prevalence": [
+                {
+                    "text": "15-29% Second most common PCD causing gene",
+                    "references": "2, 3, 4, 10, 11"
+                },
+                {
+                    "text": "15-29%",
+                    "references": "11"
+                }
+            ]
+        },
+        {
+            "Gene": "DNAI1",
+            "Other Names": "",
+            "Locus": "9p13.3",
+            "Protein function": {
+                "text": "ODA intermediate chain component",
+                "references": "12"
+            },
+            "TEM": {
+                "text": "ODA defect",
+                "references": "2, 4, 13"
+            },
+            "IF": {
+                "text": "DNAH5 present proximally, absent distally",
+                "references": "5"
+            },
+            "HSVMA": {
+                "text": "Immotile or severely reduced CBF",
+                "references": "5"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "14"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "13"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "7, 8"
+            },
+            "Other clinical associations": {
+                "text": "",
+                "references": ""
+            },
+            "Prevalence": {
+                "text": "2-10%",
+                "references": "2, 4, 14, 15"
+            }
+        },
+        {
+            "Gene": "ODAD1",
+            "Other Names": "CCDC114",
+            "Locus": "19q13.33",
+            "Protein function": {
+                "text": "ODA-DC component",
+                "references": "23"
+            },
+            "TEM": {
+                "text": "ODA defect",
+                "references": "2, 4, 23"
+            },
+            "IF": {
+                "text": "CCDC114 severely reduced, DNAH5 absent, DNALI1 present",
+                "references": "23"
+            },
+            "HSVMA": {
+                "text": "Immotile or severely reduced/stiff CBF",
+                "references": "23"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": ""
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "23"
+            },
+            "Male infertility": {
+                "text": "No reported cases",
+                "references": "23"
+            },
+            "Other clinical associations": {
+                "text": "",
+                "references": ""
+            },
+            "Prevalence": {
+                "text": "1-2%",
+                "references": "2, 4"
+            }
+        }
+    ]
+}
