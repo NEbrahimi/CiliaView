@@ -2,7 +2,7 @@
     "genes": [
         {
             "Gene": "DNAH5",
-            "Other Names": "",
+            "Other Names": "None",
             "Locus": "5p15.2",
             "Protein function": {
                 "text": "ODA heavy chain component",
@@ -22,7 +22,7 @@
             },
             "nNO": {
                 "text": "Low",
-                "references": ""
+                "references": "None"
             },
             "Laterality defects": {
                 "text": "Yes",
@@ -49,7 +49,7 @@
         },
         {
             "Gene": "DNAI1",
-            "Other Names": "",
+            "Other Names": "None",
             "Locus": "9p13.3",
             "Protein function": {
                 "text": "ODA intermediate chain component",
@@ -81,7 +81,7 @@
             },
             "Other clinical associations": {
                 "text": "",
-                "references": ""
+                "references": "None"
             },
             "Prevalence": {
                 "text": "2-10%",
@@ -110,7 +110,7 @@
             },
             "nNO": {
                 "text": "Low",
-                "references": ""
+                "references": "None"
             },
             "Laterality defects": {
                 "text": "Yes",
@@ -121,8 +121,8 @@
                 "references": "23"
             },
             "Other clinical associations": {
-                "text": "",
-                "references": ""
+                "text": "None",
+                "references": "None"
             },
             "Prevalence": {
                 "text": "1-2%",
