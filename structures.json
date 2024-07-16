@@ -2,10 +2,53 @@
     "structures": {
         "Outer dynein arm components": [
             "DNAH5",
-            "DNAI1"
+            "DNAI1",
+			"DNAI2",
+			"DNAL1",
+			"DNAH11"
         ],
         "Outer dynein arm docking": [
-            "ODAD1"
+            "ODAD1",
+			"ODAD2 ",
+			"ODAD3 ",
+			"CCDC103"
+        ],
+		"Cytoplasmic dynein arm assembly": [
+            "DNAAF1",
+			"DNAAF2",
+			"DNAAF3",
+			"DNAAF4",
+			"DNAAF5",
+			"DNAAF6",
+			"ZMYND10",
+			"DNAAF11",
+			"SPAG2",
+			"CFAP298"
+        ],
+		"Axoneme ruler": [
+            "CCDC39",
+			"CCDC40"
+        ],
+		"Central pair": [
+            "HYDIN"
+        ],
+		"Nexin-dynein regulatory complex": [
+            "GAS8",
+			"CCDC65",
+			"DRC1"
+        ],
+		"Radial spoke": [
+            "RSPH4A",
+			"RSPH9",
+			"RSPH1"
+        ],
+		"Multiciliogenesis": [
+            "CCNO",
+			"MCIDAS",
+			"FOXJ1"
+        ],
+		"Exact function / location not yet determined": [
+            "NME8"
         ]
     }
 }
