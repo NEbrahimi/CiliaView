@@ -13,7 +13,7 @@
                 "references": "2, 3, 4"
             },
             "IF": {
-                "text": "Absent DNAH5 and DNAH9",
+                "text": "DNAH5 and DNAH9 absent",
                 "references": "3, 5"
             },
             "HSVMA": {
@@ -38,11 +38,11 @@
             },
             "Prevalence": [
                 {
-                    "text": "15-29% Second most common PCD causing gene",
-                    "references": "2, 3, 4, 10, 11"
+                    "text": "15-29%",
+                    "references": "2, 3, 4, 10"
                 },
                 {
-                    "text": "15-29%",
+                    "text": "Second most common PCD causing gene",
                     "references": "11"
                 }
             ]
@@ -80,13 +80,156 @@
                 "references": "7, 8"
             },
             "Other clinical associations": {
-                "text": "None",
+                "text": "Unknown",
                 "references": "None"
             },
             "Prevalence": {
                 "text": "2-10%",
                 "references": "2, 4, 14, 15"
             }
+        },
+        {
+            "Gene": "DNAI2",
+            "Other Names": "None",
+            "Locus": "17q25.1",
+            "Protein function": {
+                "text": "ODA intermediate chain component",
+                "references": "1"
+            },
+            "TEM": {
+                "text": "ODA defect",
+                "references": "1, 2, 4"
+            },
+            "IF": {
+                "text": "DNAH5 absent or severely reduced; DNAH9 absent",
+                "references": "1"
+            },
+            "HSVMA": {
+                "text": "Not reported",
+                "references": "None"
+            },
+            "nNO": {
+                "text": "Not reported",
+                "references": "None"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "1"
+            },
+            "Male infertility": {
+                "text": "Yes (n=1)",
+                "references": "1"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "2-4%",
+                "references": "2, 4"
+            }
+        },
+        {
+            "Gene": "DNAL1",
+            "Other Names": "None",
+            "Locus": "14q24.3",
+            "Protein function": {
+                "text": "ODA light chain component",
+                "references": "16"
+            },
+            "TEM": {
+                "text": "ODA defect",
+                "references": "16, 17"
+            },
+            "IF": {
+                "text": "Not reported",
+                "references": "None"
+            },
+            "HSVMA": {
+                "text": "Immotile or severely reduced CBF",
+                "references": "16"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "16"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "16, 17"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "DNAH11",
+            "Other Names": "None",
+            "Locus": "7p15.3",
+            "Protein function": {
+                "text": "ODA heavy chain component",
+                "references": "18"
+            },
+            "TEM": {
+                "text": "Normal ultrastructure",
+                "references": "18, 19"
+            },
+            "IF": [
+                {
+                    "text": "DNAH5 present",
+                    "references": "19, 20"
+                },
+                {
+                    "text": "DNAH9 present",
+                    "references": "19"
+                },
+                {
+                    "text": "NME8 present",
+                    "references": "20"
+                }
+            ],
+            "HSVMA": {
+                "text": "Hyperkinetic CBF; Abnormal CBP with reduced bending capacity",
+                "references": "18, 19, 21"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "18, 21"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "19, 21"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "7, 8, 22"
+            },
+            "Other clinical associations": {
+                "text": "Lower incidence of NRD, milder lung disease at diagnosis",
+                "references": "9"
+            },
+            "Prevalence": [
+                {
+                    "text": "Mixed reports",
+                    "references": "None"
+                },
+                {
+                    "text": "Historically low prevalence reported (~5%)",
+                    "references": "2"
+                },
+                {
+                    "text": "However recent study found DNAH11 to be the most common genetic cause of PCD",
+                    "references": "11"
+                }
+            ]
         },
         {
             "Gene": "ODAD1",
@@ -98,7 +241,7 @@
             },
             "TEM": {
                 "text": "ODA defect",
-                "references": "2, 4, 23"
+                "references": "23, 2, 4"
             },
             "IF": {
                 "text": "CCDC114 severely reduced, DNAH5 absent, DNALI1 present",
@@ -121,12 +264,1133 @@
                 "references": "23"
             },
             "Other clinical associations": {
-                "text": "None",
+                "text": "Unknown",
                 "references": "None"
             },
             "Prevalence": {
                 "text": "1-2%",
                 "references": "2, 4"
+            }
+        },
+            {
+            "Gene": "ODAD2",
+            "Other Names": "ARMC4",
+            "Locus": "10p12.1",
+            "Protein function": {
+                "text": "ODA-DC component",
+                "references": "24"
+            },
+            "TEM": {
+                "text": "ODA defect",
+                "references": "2, 4, 25"
+            },
+            "IF": [
+                {"text": "ARMC4 severely reduced",
+                "references": "24"
+                },
+                {"text": "DNAH5 present distally and reduced proximally, DNALI1 present",
+                "references": "25"}
+            ],
+            "HSVMA": {
+                "text": "Immotile or severely reduced CBF",
+                "references": "24, 25"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "24"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "24, 25"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "<1%",
+                "references": "2, 4"
+            }
+        },
+        {
+            "Gene": "ODAD3",
+            "Other Names": "CCDC151",
+            "Locus": "19q13.33",
+            "Protein function": {
+                "text": "ODA-DC component",
+                "references": "26"
+            },
+            "TEM": {
+                "text": "ODA defect",
+                "references": "26"
+            },
+            "IF": {
+                "text": "CCDC151, DNAH5, CCDC114 and ARMC4 absent. DNALI1 and GAS8 present",
+                "references": "26"
+            },
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "26"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "None"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "26"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "CCDC103",
+            "Other Names": "None",
+            "Locus": "17q21.31",
+            "Protein function": {
+                "text": "ODA attachment factor (in addition to the ODA-DC)",
+                "references": "27"
+            },
+            "TEM": {
+                "text": "Variable-ODA defect and ODA/IDA defects reported",
+                "references": "27, 28"
+            },
+            "IF": {
+                "text": "DNAH5 and DNAI2 absent distally and reduced proximally. DNAI1 present",
+                "references": "27"
+            },
+            "HSVMA": {
+                "text": "Immotile or reduced CBF",
+                "references": "27"
+            },
+            "nNO": {
+                "text": "Not reported",
+                "references": "None"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "27, 28"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "28, 29, 30"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "DNAAF1",
+            "Other Names": "LRRC50",
+            "Locus": "16q24.1",
+            "Protein function": {
+                "text": "Cytoplasmic preassembly of dynein arms",
+                "references": "31"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "2, 4, 31, 32"
+            },
+            "IF": {
+                "text": "DNAH5, DNAH9, DNAI2 and DNALI1 absent",
+                "references": "32"
+            },
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "31, 32"
+            },
+            "nNO": {
+                "text": "Not reported",
+                "references": "None"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "31, 32"
+            },
+            "Male infertility": {
+                "text": "Yes (n=1)",
+                "references": "7"
+            },
+            "Other clinical associations": {
+                "text": "Female subfertility reported",
+                "references": "31"
+            },
+            "Prevalence": {
+                "text": "<1%",
+                "references": "2, 4"
+            }
+        },
+        {
+            "Gene": "DNAAF2",
+            "Other Names": "KTU",
+            "Locus": "14q21.3",
+            "Protein function": {
+                "text": "Cytoplasmic preassembly of dynein arms",
+                "references": "33"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "2, 4, 33"
+            },
+            "IF": {
+                "text": "DNALI1 absent. DNAH5 and DNAI2 absent distally, residual staining present proximally",
+                "references": "33"
+            },
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "33"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "None"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "33"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "33"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "<1%",
+                "references": "2, 4"
+            }
+        },
+        {
+            "Gene": "DNAAF3",
+            "Other Names": "PF22",
+            "Locus": "19q13",
+            "Protein function": {
+                "text": "Cytoplasmic preassembly of dynein arms",
+                "references": "34"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "34"
+            },
+            "IF": {
+                "text": "DNAH5, DNAH9, DNAI2 and DNALI1 absent",
+                "references": "34"
+            },
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "34"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "None"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "34"
+            },
+            "Male infertility": {
+                "text": "Yes (n=1)",
+                "references": "34"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "DNAAF4",
+            "Other Names": "DYX1C1",
+            "Locus": "15q21.3",
+            "Protein function": {
+                "text": "Interacts with DNAAF2 in its role in cytoplasmic dynein arm assembly",
+                "references": "35"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "2, 35"
+            },
+            "IF": {
+                "text": "DNAH5, DNAH9, DNAI2 and DNALI1 reduced or absent",
+                "references": "35"
+            },
+            "HSVMA": {
+                "text": "Immotile or reduced CBF",
+                "references": "35"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "None"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "35"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "35"
+            },
+            "Other clinical associations": {
+                "text": "Female infertility reported",
+                "references": "35"
+            },
+            "Prevalence": {
+                "text": "1%",
+                "references": "2"
+            }
+        },
+        {
+            "Gene": "DNAAF5",
+            "Other Names": "HEATR2",
+            "Locus": "7p22.3",
+            "Protein function": {
+                "text": "Cytoplasmic preassembly of dynein arms",
+                "references": "36"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "2, 4, 36"
+            },
+            "IF": [
+                {
+                    "text": "DNAI1 absent",
+                    "references": "36"
+                },
+                {
+                    "text": "DNALI1 and DNAH537 absent",
+                    "references": "37"
+                },
+                {
+                    "text": "DNAH7 reduced",
+                    "references": "36"
+                }
+            ],
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "36"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "36"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "36, 37"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "36"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "2-3%",
+                "references": "2, 4"
+            }
+        },
+        {
+            "Gene": "DNAAF6",
+            "Other Names": "PIH1D3",
+            "Locus": "Xq22.3",
+            "Protein function": {
+                "text": "Cytoplasmic preassembly of dynein arms",
+                "references": "38"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "38, 39"
+            },
+            "IF": [
+                {
+                "text": "DNAH5, DNAH9, DNAI1, DNAI2 and DNALI1 absent or greatly reduced",
+                "references": "38,39"
+            },
+                {
+                "text": "GAS8 and CCDC114 present",
+                "references": "39"
+            }
+            ],
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "38, 39"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "39"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "38, 39"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "38, 39"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "ZMYND10",
+            "Other Names": "DNAAF7",
+            "Locus": "3p21.31",
+            "Protein function": {
+                "text": "Cytoplasmic preassembly of dynein arms",
+                "references": "40"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "2, 40, 41"
+            },
+            "IF": {
+                "text": "DNALI1 and DNAH5 absent",
+                "references": "40, 41"
+            },
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "40"
+            },
+            "nNO": {
+                "text": "Not reported",
+                "references": "None"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "40, 42"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "40, 42"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "1%",
+                "references": "2"
+            }
+        },
+        {
+            "Gene": "DNAAF11",
+            "Other Names": "LRRC6",
+            "Locus": "8q24.22",
+            "Protein function": {
+                "text": "Cytoplasmic preassembly of dynein arms",
+                "references": "43"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "2, 4, 43"
+            },
+            "IF": {
+                "text": "LRRC6, DNAI2 and DNALI1 absent",
+                "references": "43"
+            },
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "43"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "43, 44"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "43"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "43, 44"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": [
+                {
+                "text": "1%",
+                "references": "2"
+                },
+                {
+                "text": "3%",
+                "references": "4"
+                }
+            ]
+        },
+        {
+            "Gene": "SPAG2",
+            "Other Names": "DNAAF13",
+            "Locus": "8q22.2",
+            "Protein function": {
+                "text": "Cytoplasmic preassembly of dynein arms",
+                "references": "45"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "2, 4, 45"
+            },
+            "IF": {
+                "text": "DNAH5 and DNALI1 absent",
+                "references": "45"
+            },
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "45"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "45"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "45"
+            },
+            "Male infertility": {
+                "text": "Yes (n=1)",
+                "references": "7"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": [
+                {
+                "text": "<1%",
+                "references": "4"
+                },
+                {
+                "text": "3%",
+                "references": "2"
+                }
+            ]
+        },
+        {
+            "Gene": "CFAP298",
+            "Other Names": "DNAAF16, C21orf59",
+            "Locus": "21q22.11",
+            "Protein function": {
+                "text": "Cytoplasmic preassembly of dynein arms",
+                "references": "46"
+            },
+            "TEM": {
+                "text": "ODA and IDA defect",
+                "references": "46"
+            },
+            "IF": {
+                "text": "DNAH5 and DNALI1 absent",
+                "references": "46"
+            },
+            "HSVMA": {
+                "text": "Immotile",
+                "references": "46"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "46"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "46"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+            {
+            "Gene": "CCDC39",
+            "Other Names": "None",
+            "Locus": "3q26.33",
+            "Protein function": {
+                "text": "Associates with CCDC40 and spans the repeat distance on the microtubular  doublet surface, providing defined docking sites for individual IDAs and N-DRCs at specific locations along the repeat",
+                "references": "40, 47"
+            },
+            "TEM": {
+                "text": "IDA defect with microtubular disorganisation",
+                "references": "48, 49, 50"
+            },
+            "IF": {
+                "text": "DNALI1 and GAS8 absent. DNAH5, DNAI2 and DNAH9 present",
+                "references": "49"
+            },
+            "HSVMA": {
+                "text": "Immotile or variable CBF with stiff CBP",
+                "references": "48, 49, 50"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "48, 50"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "48, 49, 50"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "48, 49, 50"
+            },
+            "Other clinical associations": {
+                "text": "Worse lung disease at diagnosis, significant lung function decline over time and poorer growth compared with those with ODA defects",
+                "references": "4, 9, 51"
+            },
+            "Prevalence": {
+                "text": "7-11%",
+                "references": "2, 4"
+            }
+        },
+        {
+            "Gene": "CCDC40",
+            "Other Names": "",
+            "Locus": "17q25.3",
+            "Protein function": {
+                "text": "Associates with CCDC39 and spans the repeat distance on the microtubular  doublet surface, providing defined docking sites for individual IDAs and N-DRCs at specific locations along the repeat",
+                "references": "47"
+            },
+            "TEM": {
+                "text": "IDA defect with microtubular disorganisation",
+                "references": "48, 50, 52"
+            },
+            "IF": [
+                {
+                    "text": "CCDC39 absent; RSPH4A and RSP11 present",
+                    "references": "48"
+                },
+                {
+                    "text": "DNALI1 and GAS1152 absent; DNAH5, DNAH9, and DNAI252 present",
+                    "references": "52"
+                }
+            ],
+            "HSVMA": {
+                "text": "Immotile or variable CBF with stiff CBP",
+                "references": "48, 50, 52"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "48"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "48, 50, 52"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "48, 50"
+            },
+            "Other clinical associations": [
+                {
+                    "text": "Worse lung disease at diagnosis, significant lung function decline over time and poorer growth compared with those with ODA defects",
+                    "references": "4, 9, 51"
+                },
+                {
+                    "text": "Female infertility reported48",
+                    "references": "48"
+                }
+            ],
+            "Prevalence": {
+                "text": "12-14%",
+                "references": "4, 2"
+            }
+        },
+            {
+            "Gene": "HYDIN",
+            "Other Names": "nONE",
+            "Locus": "16q22.2",
+            "Protein function": {
+                "text": "Central pair apparatus component",
+                "references": "53"
+            },
+            "TEM": {
+                "text": "Majority of cilia normal ultrastructure; Rare absence of central pair or translocation defect reported",
+                "references": "54"
+            },
+            "IF": {
+                "text": "SPEF2 absent; DNAH5, GAS8 and RSPH9 present",
+                "references": "55"
+            },
+            "HSVMA": {
+                "text": "Mean CBF normal; Reduced bending capacity and reduce beat amplitude; Rotational movement in top view of some bundles",
+                "references": "54"
+            },
+            "nNO": {
+                "text": "Low or normal",
+                "references": "54, 55"
+            },
+            "Laterality defects": {
+                "text": "No",
+                "references": "9, 54"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "54"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "GAS8",
+            "Other Names": "None",
+            "Locus": "16q24.3",
+            "Protein function": {
+                "text": "N-DRC component",
+                "references": "56"
+            },
+            "TEM": {
+                "text": "Majority of cilia normal ultrastructure Increased frequency of misaligned outer doublets compared with healthy controls",
+                "references": "56, 57"
+            },
+            "IF": {
+                "text": "GAS8 and LRRC48 absent; DNAH5, DNALI1, CCDC39, CCDC40, DNAI1, RSPH3 and RSPH11 present",
+                "references": "56, 57"
+            },
+            "HSVMA": {
+                "text": "Normal CBF; Subtle reduction of beat amplitude compared with controls",
+                "references": "56, 57"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "56, 57"
+            },
+            "Laterality defects": {
+                "text": "No reported cases",
+                "references": "56, 57"
+            },
+            "Male infertility": {
+                "text": "Yes",
+                "references": "57"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "CCDC65",
+            "Other Names": "DRC2",
+            "Locus": "12q13.12",
+            "Protein function": {
+                "text": "N-DRC component",
+                "references": "46"
+            },
+            "TEM": [
+                {
+                "text": "Normal ultrastructure",
+                "references": "58"
+                },
+                {
+                "text": "Or reduced numbers of IDAs and nexin links; Microtubular disorganisation in 5-15%",
+                "references": "46"
+                }
+            ],
+            "IF": {
+                "text": "CCDC65 and GAS8 absent",
+                "references": "58"
+            },
+            "HSVMA": {
+                "text": "Normal CBF; Stiff / hyperkinetic CBP",
+                "references": "46, 58"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "46, 58"
+            },
+            "Laterality defects": {
+                "text": "No reported cases",
+                "references": "46"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "DRC1",
+            "Other Names": "CCDC164",
+            "Locus": "2p23.3",
+            "Protein function": {
+                "text": "N-DRC component",
+                "references": "59"
+            },
+            "TEM": {
+                "text": "Grossly normal ultrastructure; Subtle absence of radial spokes",
+                "references": "59"
+            },
+            "IF": {
+                "text": "GAS8 and LRRC48 absent or severely reduced; DNAH5 and DNALI1 present",
+                "references": "59"
+            },
+            "HSVMA": {
+                "text": "Hyperkinetic CBF; abnormal CBP with reduced bending capacity",
+                "references": "59"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "59, 60"
+            },
+            "Laterality defects": {
+                "text": "No reported cases",
+                "references": "59, 60"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "RSPH4A",
+            "Other Names": "None",
+            "Locus": "6q22.1",
+            "Protein function": {
+                "text": "Radial spoke head component",
+                "references": "61"
+            },
+            "TEM": {
+                "text": "Central pair defect in ~50% of cilia; either absence of central pair (9+0) or a 'transposition' defect with absence of central pair and displacement of one of the peripheral doublets into the centre (8+1)",
+                "references": "61, 62, 63"
+            },
+            "IF": {
+                "text": "RSPH9, RSPH4A and RSPH1 absent; RSPH23 and RSPH3 present",
+                "references": "64"
+            },
+            "HSVMA": {
+                "text": "Rotational movement with normal or near normal CBF",
+                "references": "61, 63"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "62, 63"
+            },
+            "Laterality defects": {
+                "text": "No",
+                "references": "61, 62, 65"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "2-3%",
+                "references": "2, 4"
+            }
+        },
+        {
+            "Gene": "RSPH9",
+            "Other Names": "None",
+            "Locus": "6p21.1",
+            "Protein function": {
+                "text": "Radial spoke head component",
+                "references": "61"
+            },
+            "TEM": {
+                "text": "Central pair defect in ~50% of cilia; either absence of central pair (9+0) or a 'transposition' defect with absence of central pair and displacement of one of the peripheral doublets into the centre (8+1)",
+                "references": "61"
+            },
+            "IF": {
+                "text": "RSPH9 absent; RSPH4A, RSPH1, RSPH23 and RSPH3 present",
+                "references": "64"
+            },
+            "HSVMA": {
+                "text": "Rotational movement with normal or near normal CBF",
+                "references": ""
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "64"
+            },
+            "Laterality defects": {
+                "text": "No",
+                "references": "61, 65"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "<1%",
+                "references": "2, 4"
+            }
+        },
+        {
+            "Gene": "RSPH1",
+            "Other Names": "None",
+            "Locus": "21q22.3",
+            "Protein function": {
+                "text": "Radial spoke head component",
+                "references": "66"
+            },
+            "TEM": [
+                {
+                "text": "Normal ultrastructure in majority of cilia",
+                "references": "67"
+                },
+                {
+                "text": "Occasional absence of central pair or translocation defect in minority of cilia",
+                "references": "66, 67"
+                }
+            ],
+            "IF": {
+                "text": "RSPH9, and RSPH1 absent; RSPH4A, RSPH23 and RSPH3 present",
+                "references": "64"
+            },
+            "HSVMA": {
+                "text": "Mean CBF normal or slightly lower than normal Rotational movement when viewed top down; Reduced range of motion when viewed from side",
+                "references": "66, 67"
+            },
+            "nNO": {
+                "text": "Mildly reduced or normal",
+                "references": "67, 68"
+            },
+            "Laterality defects": {
+                "text": "No",
+                "references": "65"
+            },
+            "Male infertility": {
+                "text": "Y (N=1)",
+                "references": "7"
+            },
+            "Other clinical associations": {
+                "text": "Lower incidence of neonatal respiratory distress, later onset of daily wet cough and milder lung disease then classic PCD",
+                "references": "67"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "CCNO",
+            "Other Names": "None",
+            "Locus": "5q11.2",
+            "Protein function": {
+                "text": "Promotes centriole assembly and maturation in multiciliated cells",
+                "references": "69"
+            },
+            "TEM": {
+                "text": "Either complete absence or severely decreased numbers of cilia; Severe decrease in number of basal bodies at the apical region; Occasional mislocalised of basal bodies in the cytoplasm",
+                "references": "69"
+            },
+            "IF": {
+                "text": "Average 1.2 cilia per multiciliated cell; DNAH5 present in residual cilia",
+                "references": "69"
+            },
+            "HSVMA": {
+                "text": "Complete absence or markedly reduced numbers of cilia. The few residual cilia retain motility",
+                "references": "69"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "69"
+            },
+            "Laterality defects": {
+                "text": "No",
+                "references": "9, 69, 70"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Associated with hydrocephalus",
+                "references": "71"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "MCIDAS",
+            "Other Names": "None",
+            "Locus": "5q11.2",
+            "Protein function": {
+                "text": "Promotes the early steps of multiciliated cell differentiation",
+                "references": "72"
+            },
+            "TEM": {
+                "text": "Either complete absence or severely reduced numbers of cilia; Severe decrease in number of basal bodies at the apical surface; Occasional basal body mislocalisation in the cytoplasm",
+                "references": "72"
+            },
+            "IF": {
+                "text": "Severe reduction in number of cilia to 0-2 cilia per cell; DNAH5 and CCDC39 absent",
+                "references": "72"
+            },
+            "HSVMA": {
+                "text": "Not reported",
+                "references": "None"
+            },
+            "nNO": {
+                "text": "Low",
+                "references": "72"
+            },
+            "Laterality defects": {
+                "text": "No",
+                "references": "9, 70, 72"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Associated with hydrocephalus; Female infertility reported",
+                "references": "72"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "FOXJ1**",
+            "Other Names": "None",
+            "Locus": "17q25.1",
+            "Protein function": {
+                "text": "Apical docking of basal bodies in multiciliated cells",
+                "references": "73"
+            },
+            "TEM": {
+                "text": "Marked reduction in number of cilia per cell and number of basal bodies at the apical surface; Overall normal number of basal bodies with mislocalisation in the cytoplasm; Variable ultrastructural abnormalities; normal ultrastructure, microtubular disorganisation and/or central pair defects reported",
+                "references": "73"
+            },
+            "IF": {
+                "text": "DNAI2, DNAH5, GAS8 and RSPH4A present; Normal number of basal bodies on CEP164staining",
+                "references": "73"
+            },
+            "HSVMA": {
+                "text": "Reduced number of cilia per cell; Residual cilia show stiff beating pattern with reduced beating amplitude",
+                "references": "73"
+            },
+            "nNO": {
+                "text": "Normal",
+                "references": "73"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "73"
+            },
+            "Male infertility": {
+                "text": "Yes (n=1)",
+                "references": "73"
+            },
+            "Other clinical associations": {
+                "text": "Associated with hydrocephalus; Female infertility reported",
+                "references": "73"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
+            }
+        },
+        {
+            "Gene": "NME8",
+            "Other Names": "TXNDC3***",
+            "Locus": "7p14.1",
+            "Protein function": {
+                "text": "Likely an ODA component",
+                "references": "74"
+            },
+            "TEM": {
+                "text": "ODA defect in 66% of cilia, remainder normal ultrastructure",
+                "references": "74"
+            },
+            "IF": {
+                "text": "Not reported",
+                "references": "None"
+            },
+            "HSVMA": {
+                "text": "CBF normal",
+                "references": "74"
+            },
+            "nNO": {
+                "text": "Not reported",
+                "references": "None"
+            },
+            "Laterality defects": {
+                "text": "Yes",
+                "references": "74"
+            },
+            "Male infertility": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Other clinical associations": {
+                "text": "Unknown",
+                "references": "None"
+            },
+            "Prevalence": {
+                "text": "Unknown",
+                "references": "None"
             }
         }
     ]
