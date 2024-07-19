@@ -54,20 +54,23 @@ def display_gene_info(gene_info):
 
     for key, value in gene_info.items():
         if key not in ["Gene", "Locus", "Other Names"] and value:
-            if isinstance(value, list):
+            if isinstance(value, list) and len(value) > 0:
+                st.markdown(f"**{key}:**")
                 for sub_value in value:
                     text = sub_value['text']
                     references = sub_value['references']
                     if references == "None":
+                        st.markdown(f"**{key}:** {text}")
                         continue
                     ref_numbers = references.split(', ')
-                    ref_text = ''.join([f",<sup>{get_sequential_ref(ref.strip())}</sup>" for ref in ref_numbers])
+                    ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
                     ref_text = ref_text.rstrip(", </sup>") + '</sup>'
                     st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
             else:
                 text = value['text']
                 references = value['references']
                 if references == "None":
+                    st.markdown(f"**{key}:** {text}")
                     continue
                 if references:
                     ref_numbers = references.split(', ')
@@ -122,7 +125,7 @@ st.markdown(
 # Central area for the map
 st.title("Cilia Structure Map")
 map_image = Image.open("map.png")
-st.image(map_image, width=900)
+st.image(map_image, width=900, caption='')
 
 # Sidebar interaction for search
 st.sidebar.title("Search and Filter")
@@ -133,9 +136,8 @@ if search_option == "Gene":
     if gene_name:
         gene_info = get_gene_info(gene_name)
         if gene_info:
-            st.markdown(f"**{gene_info['Gene']}**")
-
             with st.sidebar.expander("**Gene Information**"):
+                st.markdown(f"**{gene_info['Gene']}**")
                 used_references = display_gene_info(gene_info)
 
             with st.sidebar.expander("**References**"):
@@ -163,9 +165,8 @@ elif search_option == "Structure":
         if gene_name:
             gene_info = get_gene_info(gene_name)
             if gene_info:
-                st.markdown(f"**{gene_info['Gene']}**")
-
                 with st.sidebar.expander("**Gene Information**"):
+                    st.markdown(f"**{gene_info['Gene']}**")
                     used_references = display_gene_info(gene_info)
 
                 with st.sidebar.expander("**References**"):
