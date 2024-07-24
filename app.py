@@ -30,7 +30,8 @@ def get_full_citation(reference_key):
         author = bibtex['author']
         journal = bibtex['journal']
         volume = bibtex['volume']
-        number = bibtex['number']
+        # number = bibtex['number']
+        number = bibtex.get('number', '')
         pages = bibtex.get('pages', '')
         year = bibtex['year']
         publisher = bibtex['publisher']
@@ -52,6 +53,9 @@ def display_gene_info(gene_info):
             ref_counter += 1
         return used_references[ref]
 
+    def normalize_references(ref_str):
+        return [ref.strip() for ref in ref_str.replace(" ", "").split(",")]
+
     for key, value in gene_info.items():
         if key not in ["Gene", "Locus", "Other Names"] and value:
             if isinstance(value, list) and len(value) > 0:
@@ -62,10 +66,12 @@ def display_gene_info(gene_info):
                     if references == "None":
                         st.markdown(f"**{key}:** {text}")
                         continue
-                    ref_numbers = references.split(', ')
+                    ref_numbers = normalize_references(references)
+                    # ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}</sup>, " for ref in ref_numbers])
+                    # ref_text = ref_text.rstrip(', ')
                     ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
                     ref_text = ref_text.rstrip(", </sup>") + '</sup>'
-                    st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
+                    st.markdown(f"{text} {ref_text}", unsafe_allow_html=True)
             else:
                 text = value['text']
                 references = value['references']
@@ -73,13 +79,17 @@ def display_gene_info(gene_info):
                     st.markdown(f"**{key}:** {text}")
                     continue
                 if references:
-                    ref_numbers = references.split(', ')
+                    ref_numbers = normalize_references(references)
+                    # ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}</sup>, " for ref in ref_numbers])
+                    # ref_text = ref_text.rstrip(', ')
                     ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
                     ref_text = ref_text.rstrip(", </sup>") + '</sup>'
                     st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
                 else:
                     st.markdown(f"**{key}:** {text}")
     return used_references
+
+
 
 
 # Custom CSS to adjust the layout
