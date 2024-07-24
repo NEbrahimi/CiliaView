@@ -67,11 +67,9 @@ def display_gene_info(gene_info):
                         st.markdown(f"**{key}:** {text}")
                         continue
                     ref_numbers = normalize_references(references)
-                    # ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}</sup>, " for ref in ref_numbers])
-                    # ref_text = ref_text.rstrip(', ')
                     ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
                     ref_text = ref_text.rstrip(", </sup>") + '</sup>'
-                    st.markdown(f"{text} {ref_text}", unsafe_allow_html=True)
+                    st.markdown(f"- {text} {ref_text}", unsafe_allow_html=True)
             else:
                 text = value['text']
                 references = value['references']
@@ -80,8 +78,6 @@ def display_gene_info(gene_info):
                     continue
                 if references:
                     ref_numbers = normalize_references(references)
-                    # ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}</sup>, " for ref in ref_numbers])
-                    # ref_text = ref_text.rstrip(', ')
                     ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
                     ref_text = ref_text.rstrip(", </sup>") + '</sup>'
                     st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
@@ -126,6 +122,23 @@ st.markdown(
         }
         .sidebar .block-container .st-bx {
             padding-left: 0px;
+        }
+        ul {
+            margin: 0;
+            padding-left: 20px; /* Adjust as needed for indentation */
+            margin-bottom: 13px; /* Space after the list */
+        }
+        li {
+            margin: 0 0 0px 0; /* Adjust bottom margin for spacing between list items */
+            padding-left: 10px; /* Adjust padding to create space between bullet and text */
+            line-height: 1.5; /* Adjust line height to reduce spacing between lines */
+        }
+        p {
+            margin: 0 0 13px 0; /* Adjust this value to control the space after paragraphs */
+        }
+        
+        h2, h3, h4, h5, h6 {
+            margin: 0 0 13px 0; /* Adjust this value to control the space after headings */
         }
     </style>
     """,
