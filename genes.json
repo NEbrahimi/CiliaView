@@ -2,8 +2,10 @@
     "genes": [
         {
             "Gene": "DNAH5",
+            "NCBI Gene ID": "1767",
             "Other Names": "None",
             "Locus": "5p15.2",
+            "Protein name": "Dynein axonemal heavy chain 5",
             "Protein function": {
                 "text": "ODA heavy chain component",
                 "references": "1"
@@ -49,8 +51,10 @@
         },
         {
             "Gene": "DNAI1",
+            "NCBI Gene ID": "27019",
             "Other Names": "None",
             "Locus": "9p13.3",
+            "Protein name": "Dynein axonemal intermediate chain 1",
             "Protein function": {
                 "text": "ODA intermediate chain component",
                 "references": "12"
@@ -90,8 +94,10 @@
         },
         {
             "Gene": "DNAI2",
+            "NCBI Gene ID": "64446",
             "Other Names": "None",
             "Locus": "17q25.1",
+            "Protein name": "Dynein axonemal intermediate chain 2",
             "Protein function": {
                 "text": "ODA intermediate chain component",
                 "references": "1"
@@ -131,8 +137,10 @@
         },
         {
             "Gene": "DNAL1",
+            "NCBI Gene ID": "83544",
             "Other Names": "None",
             "Locus": "14q24.3",
+            "Protein name": "Dynein axonemal light chain 1",
             "Protein function": {
                 "text": "ODA light chain component",
                 "references": "16"
@@ -172,8 +180,10 @@
         },
         {
             "Gene": "DNAH11",
+            "NCBI Gene ID": "8701",
             "Other Names": "None",
             "Locus": "7p15.3",
+            "Protein name": "Dynein axonemal heavy chain 11",
             "Protein function": {
                 "text": "ODA heavy chain component",
                 "references": "18"
@@ -233,8 +243,10 @@
         },
         {
             "Gene": "ODAD1",
+            "NCBI Gene ID": "93233",
             "Other Names": "CCDC114",
             "Locus": "19q13.33",
+            "Protein name": "Outer dynein arm docking complex subunit 1",
             "Protein function": {
                 "text": "ODA-DC component",
                 "references": "23"
@@ -274,8 +286,10 @@
         },
             {
             "Gene": "ODAD2",
+            "NCBI Gene ID": "55130",
             "Other Names": "ARMC4",
             "Locus": "10p12.1",
+            "Protein name": "Outer dynein arm docking complex subunit 2",
             "Protein function": {
                 "text": "ODA-DC component",
                 "references": "24"
@@ -318,8 +332,10 @@
         },
         {
             "Gene": "ODAD3",
+            "NCBI Gene ID": "115948",
             "Other Names": "CCDC151",
             "Locus": "19q13.33",
+            "Protein name": "Outer dynein arm docking complex subunit 3",
             "Protein function": {
                 "text": "ODA-DC component",
                 "references": "26"
@@ -359,8 +375,10 @@
         },
         {
             "Gene": "CCDC103",
+            "NCBI Gene ID": "388389",
             "Other Names": "None",
             "Locus": "17q21.31",
+            "Protein name": "Coiled-coil domain containing 103",
             "Protein function": {
                 "text": "ODA attachment factor (in addition to the ODA-DC)",
                 "references": "27"
@@ -400,8 +418,10 @@
         },
         {
             "Gene": "DNAAF1",
+            "NCBI Gene ID": "123872",
             "Other Names": "LRRC50",
             "Locus": "16q24.1",
+            "Protein name": "Dynein axonemal assembly factor 1",
             "Protein function": {
                 "text": "Cytoplasmic preassembly of dynein arms",
                 "references": "31"
@@ -441,8 +461,10 @@
         },
         {
             "Gene": "DNAAF2",
+            "NCBI Gene ID": "55172",
             "Other Names": "KTU",
             "Locus": "14q21.3",
+            "Protein name": "Dynein axonemal assembly factor 2",
             "Protein function": {
                 "text": "Cytoplasmic preassembly of dynein arms",
                 "references": "33"
@@ -482,8 +504,10 @@
         },
         {
             "Gene": "DNAAF3",
+            "NCBI Gene ID": "352909",
             "Other Names": "PF22",
             "Locus": "19q13",
+            "Protein name": "Dynein axonemal assembly factor 3",
             "Protein function": {
                 "text": "Cytoplasmic preassembly of dynein arms",
                 "references": "34"
@@ -523,8 +547,10 @@
         },
         {
             "Gene": "DNAAF4",
+            "NCBI Gene ID": "161582",
             "Other Names": "DYX1C1",
             "Locus": "15q21.3",
+            "Protein name": "Dynein axonemal assembly factor 4",
             "Protein function": {
                 "text": "Interacts with DNAAF2 in its role in cytoplasmic dynein arm assembly",
                 "references": "35"
@@ -564,8 +590,10 @@
         },
         {
             "Gene": "DNAAF5",
+            "NCBI Gene ID": "54919",
             "Other Names": "HEATR2",
             "Locus": "7p22.3",
+            "Protein name": "Dynein axonemal assembly factor 5",
             "Protein function": {
                 "text": "Cytoplasmic preassembly of dynein arms",
                 "references": "36"
@@ -615,8 +643,10 @@
         },
         {
             "Gene": "DNAAF6",
+            "NCBI Gene ID": "139212",
             "Other Names": "PIH1D3",
             "Locus": "Xq22.3",
+            "Protein name": "Dynein axonemal assembly factor 6",
             "Protein function": {
                 "text": "Cytoplasmic preassembly of dynein arms",
                 "references": "38"
@@ -663,7 +693,9 @@
         {
             "Gene": "ZMYND10",
             "Other Names": "DNAAF7",
+            "NCBI Gene ID": "51364",
             "Locus": "3p21.31",
+            "Protein name": "Zinc finger MYND-type containing 10",
             "Protein function": {
                 "text": "Cytoplasmic preassembly of dynein arms",
                 "references": "40"
@@ -704,7 +736,9 @@
         {
             "Gene": "DNAAF11",
             "Other Names": "LRRC6",
+            "NCBI Gene ID": "23639",
             "Locus": "8q24.22",
+            "Protein name": "Dynein axonemal assembly factor 11",
             "Protein function": {
                 "text": "Cytoplasmic preassembly of dynein arms",
                 "references": "43"
@@ -749,9 +783,11 @@
             ]
         },
         {
-            "Gene": "SPAG2",
+            "Gene": "SPAG1",
             "Other Names": "DNAAF13",
+            "NCBI Gene ID": "6674",
             "Locus": "8q22.2",
+            "Protein name": "Sperm associated antigen 1",
             "Protein function": {
                 "text": "Cytoplasmic preassembly of dynein arms",
                 "references": "45"
@@ -798,7 +834,9 @@
         {
             "Gene": "CFAP298",
             "Other Names": "DNAAF16, C21orf59",
+            "NCBI Gene ID": "56683",
             "Locus": "21q22.11",
+            "Protein name": "Cilia and flagella associated protein 298",
             "Protein function": {
                 "text": "Cytoplasmic preassembly of dynein arms",
                 "references": "46"
@@ -839,7 +877,9 @@
             {
             "Gene": "CCDC39",
             "Other Names": "None",
+            "NCBI Gene ID": "339829",
             "Locus": "3q26.33",
+            "Protein name": "Coiled-coil domain 39 molecular ruler complex subunit",
             "Protein function": {
                 "text": "Associates with CCDC40 and spans the repeat distance on the microtubular  doublet surface, providing defined docking sites for individual IDAs and N-DRCs at specific locations along the repeat",
                 "references": "40, 47"
@@ -879,8 +919,10 @@
         },
         {
             "Gene": "CCDC40",
-            "Other Names": "",
+            "Other Names": "None",
+            "NCBI Gene ID": "55036",
             "Locus": "17q25.3",
+            "Protein name": "Coiled-coil domain 40 molecular ruler complex subunit",
             "Protein function": {
                 "text": "Associates with CCDC39 and spans the repeat distance on the microtubular  doublet surface, providing defined docking sites for individual IDAs and N-DRCs at specific locations along the repeat",
                 "references": "47"
@@ -933,7 +975,9 @@
             {
             "Gene": "HYDIN",
             "Other Names": "nONE",
+            "NCBI Gene ID": "54768",
             "Locus": "16q22.2",
+            "Protein name": "HYDIN axonemal central pair apparatus protein",
             "Protein function": {
                 "text": "Central pair apparatus component",
                 "references": "53"
@@ -974,7 +1018,9 @@
         {
             "Gene": "GAS8",
             "Other Names": "None",
+            "NCBI Gene ID": "2622",
             "Locus": "16q24.3",
+            "Protein name": "Growth arrest specific 8",
             "Protein function": {
                 "text": "N-DRC component",
                 "references": "56"
@@ -1015,7 +1061,9 @@
         {
             "Gene": "CCDC65",
             "Other Names": "DRC2",
+            "NCBI Gene ID": "85478",
             "Locus": "12q13.12",
+            "Protein name": "Coiled-coil domain containing 65",
             "Protein function": {
                 "text": "N-DRC component",
                 "references": "46"
@@ -1062,7 +1110,9 @@
         {
             "Gene": "DRC1",
             "Other Names": "CCDC164",
+            "NCBI Gene ID": "92749",
             "Locus": "2p23.3",
+            "Protein name": "Dynein regulatory complex subunit 1",
             "Protein function": {
                 "text": "N-DRC component",
                 "references": "59"
@@ -1103,7 +1153,9 @@
         {
             "Gene": "RSPH4A",
             "Other Names": "None",
+            "NCBI Gene ID": "345895",
             "Locus": "6q22.1",
+            "Protein name": "Radial spoke head component 4A",
             "Protein function": {
                 "text": "Radial spoke head component",
                 "references": "61"
@@ -1144,7 +1196,9 @@
         {
             "Gene": "RSPH9",
             "Other Names": "None",
+            "NCBI Gene ID": "221421",
             "Locus": "6p21.1",
+            "Protein name": "Radial spoke head component 9",
             "Protein function": {
                 "text": "Radial spoke head component",
                 "references": "61"
@@ -1185,7 +1239,9 @@
         {
             "Gene": "RSPH1",
             "Other Names": "None",
+            "NCBI Gene ID": "89765",
             "Locus": "21q22.3",
+            "Protein name": "Radial spoke head component 1",
             "Protein function": {
                 "text": "Radial spoke head component",
                 "references": "66"
@@ -1232,7 +1288,9 @@
         {
             "Gene": "CCNO",
             "Other Names": "None",
+            "NCBI Gene ID": "10309",
             "Locus": "5q11.2",
+            "Protein name": "Cyclin O",
             "Protein function": {
                 "text": "Promotes centriole assembly and maturation in multiciliated cells",
                 "references": "69"
@@ -1273,7 +1331,9 @@
         {
             "Gene": "MCIDAS",
             "Other Names": "None",
+            "NCBI Gene ID": "345643",
             "Locus": "5q11.2",
+            "Protein name": "Multiciliate differentiation and DNA synthesis associated cell cycle protein",
             "Protein function": {
                 "text": "Promotes the early steps of multiciliated cell differentiation",
                 "references": "72"
@@ -1312,9 +1372,12 @@
             }
         },
         {
-            "Gene": "FOXJ1**",
+            "Gene": "FOXJ1",
             "Other Names": "None",
+            "NCBI Gene ID": "2302",
             "Locus": "17q25.1",
+            "Note": "Autosomal dominant and de novo cases have been reported",
+            "Protein name": "Forkhead box J1",
             "Protein function": {
                 "text": "Apical docking of basal bodies in multiciliated cells",
                 "references": "73"
@@ -1355,7 +1418,9 @@
         {
             "Gene": "NME8",
             "Other Names": "TXNDC3***",
+            "NCBI Gene ID": "51314",
             "Locus": "7p14.1",
+            "Protein name": "NME/NM23 family member 8",
             "Protein function": {
                 "text": "Likely an ODA component",
                 "references": "74"
