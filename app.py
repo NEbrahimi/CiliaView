@@ -219,39 +219,67 @@ st.sidebar.title("Search and Filter")
 search_option = st.sidebar.selectbox("Search by", ["Gene", "Structure"])
 
 if search_option == "Gene":
-    gene_name = st.sidebar.text_input("Enter gene name")
+    gene_name = st.sidebar.text_input("Enter gene name (type **Unknown** to see patients with undetermined genetics)").strip()
     if gene_name:
-        gene_info = get_gene_info(gene_name)
-        if gene_info:
-            with st.sidebar.expander("**Gene Information**"):
-                st.markdown(f"**{gene_info['Gene']}**")
-                used_references = display_gene_info(gene_info)
+        if gene_name.lower() == "unknown":
+            for patient in patient_data:
+                for gene in patient['Genes']:
+                    if gene['Gene_Name'].lower() == "unknown":
+                        with st.sidebar.expander(f"**Patient ID:** {patient['Patient_ID']}", expanded=False):
+                            gene_counter = 1
+                            for gene in patient['Genes']:
+                                st.markdown(f"**Gene {gene_counter}:** {gene['Gene_Name']}")
+                                st.markdown(f"&emsp;**Alleles:** {', '.join(gene['Alleles'])}")
+                                gene_counter += 1
+                            for key, value in patient.items():
+                                if key not in ['Patient_ID', 'Genes'] and value and value != "None":
+                                    if isinstance(value, list):
+                                        st.markdown(f"**{key}:**")
+                                        for item in value:
+                                            if isinstance(item, dict):
+                                                text = item.get('text', '')
+                                                st.markdown(f"&emsp;- {text}")
+                                            else:
+                                                st.markdown(f"&emsp;- {item}")
+                                    else:
+                                        st.markdown(f"**{key}:** {value}")
+        else:
+            gene_info = get_gene_info(gene_name)
+            if gene_info:
+                with st.sidebar.expander("**Gene Information**"):
+                    st.markdown(f"**{gene_info['Gene']}**")
+                    used_references = display_gene_info(gene_info)
 
-            with st.sidebar.expander("**References**"):
-                if used_references:
-                    sorted_references = sorted(used_references.items(), key=lambda x: x[1])
-                    for original_ref, new_ref in sorted_references:
-                        full_citation = get_full_citation(f"reference_{original_ref}")
-                        if full_citation:
-                            st.markdown(f"<sup>{new_ref}</sup> {full_citation}", unsafe_allow_html=True)
+                with st.sidebar.expander("**References**"):
+                    if used_references:
+                        sorted_references = sorted(used_references.items(), key=lambda x: x[1])
+                        for original_ref, new_ref in sorted_references:
+                            full_citation = get_full_citation(f"reference_{original_ref}")
+                            if full_citation:
+                                st.markdown(f"<sup>{new_ref}</sup> {full_citation}", unsafe_allow_html=True)
 
-            with st.sidebar.expander("**Patient Database**"):
-                patients = get_patients_with_gene(gene_name)
-                if patients:
-                    for patient in patients:
-                        st.markdown(f"**Patient ID:** {patient['Patient_ID']}")
+                for patient in get_patients_with_gene(gene_name):
+                    with st.sidebar.expander(f"**Patient ID:** {patient['Patient_ID']}", expanded=False):
                         gene_counter = 1  # Initialize gene counter
                         for gene in patient['Genes']:
                             st.markdown(f"**Gene {gene_counter}:** {gene['Gene_Name']}")
-                            st.markdown(
-                                f"&emsp;**Alleles:** {', '.join(gene['Alleles'])}")  # Indentation using HTML entity
+                            st.markdown(f"&emsp;**Alleles:** {', '.join(gene['Alleles'])}")
                             gene_counter += 1
                         for key, value in patient.items():
                             if key not in ['Patient_ID', 'Genes'] and value and value != "None":
-                                st.markdown(f"**{key}:** {value}")
+                                if isinstance(value, list):
+                                    st.markdown(f"**{key}:**")
+                                    for item in value:
+                                        if isinstance(item, dict):
+                                            text = item.get('text', '')
+                                            st.markdown(f"&emsp;- {text}")
+                                        else:
+                                            st.markdown(f"&emsp;- {item}")
+                                else:
+                                    st.markdown(f"**{key}:** {value}")
+            else:
+                st.sidebar.write("Gene not found.")
 
-        else:
-            st.sidebar.write("Gene not found.")
 
 elif search_option == "Structure":
     structure_name = st.sidebar.selectbox("Select structure to view genes:", ["Select a structure"] + list(structures_data.keys()), key="structure_select")
