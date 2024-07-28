@@ -12,6 +12,20 @@ with open('structures.json') as f:
 with open('references.json') as f:
     references_data = json.load(f)['references']
 
+with open('patient_database.json') as f:
+    patient_data = json.load(f)['patients']
+
+
+# Function to get patient information based on gene
+def get_patients_with_gene(gene_name):
+    patients_with_gene = []
+    for patient in patient_data:
+        for gene in patient['Genes']:
+            if gene['Gene_Name'] == gene_name:
+                patients_with_gene.append(patient)
+                break
+    return patients_with_gene
+
 
 # Function to get gene information
 def get_gene_info(gene_name):
@@ -57,33 +71,83 @@ def display_gene_info(gene_info):
         return [ref.strip() for ref in ref_str.replace(" ", "").split(",")]
 
     for key, value in gene_info.items():
-        if key not in ["Gene", "Locus", "Other Names"] and value:
+        if key not in ["Gene", "Locus", "Other Names", "Gene NCBI", "Protein Name"] and value:
             if isinstance(value, list) and len(value) > 0:
                 st.markdown(f"**{key}:**")
                 for sub_value in value:
-                    text = sub_value['text']
-                    references = sub_value['references']
+                    # Check if sub_value is a dictionary before accessing its keys
+                    if isinstance(sub_value, dict):
+                        text = sub_value.get('text', '')
+                        references = sub_value.get('references', 'None')
+                        if references == "None":
+                            st.markdown(f"**{key}:** {text}")
+                            continue
+                        ref_numbers = normalize_references(references)
+                        ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
+                        ref_text = ref_text.rstrip(", </sup>") + '</sup>'
+                        st.markdown(f"- {text} {ref_text}", unsafe_allow_html=True)
+            else:
+                # Check if value is a dictionary before accessing its keys
+                if isinstance(value, dict):
+                    text = value.get('text', '')
+                    references = value.get('references', 'None')
                     if references == "None":
                         st.markdown(f"**{key}:** {text}")
                         continue
-                    ref_numbers = normalize_references(references)
-                    ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
-                    ref_text = ref_text.rstrip(", </sup>") + '</sup>'
-                    st.markdown(f"- {text} {ref_text}", unsafe_allow_html=True)
-            else:
-                text = value['text']
-                references = value['references']
-                if references == "None":
-                    st.markdown(f"**{key}:** {text}")
-                    continue
-                if references:
-                    ref_numbers = normalize_references(references)
-                    ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
-                    ref_text = ref_text.rstrip(", </sup>") + '</sup>'
-                    st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
+                    if references:
+                        ref_numbers = normalize_references(references)
+                        ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
+                        ref_text = ref_text.rstrip(", </sup>") + '</sup>'
+                        st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
+                    else:
+                        st.markdown(f"**{key}:** {text}")
                 else:
-                    st.markdown(f"**{key}:** {text}")
+                    # Treat value as a string and display it directly if not a dictionary
+                    st.markdown(f"**{key}:** {value}")
     return used_references
+
+# def display_gene_info(gene_info):
+#     used_references = {}
+#     ref_counter = 1
+#
+#     def get_sequential_ref(ref):
+#         nonlocal ref_counter
+#         if ref not in used_references:
+#             used_references[ref] = ref_counter
+#             ref_counter += 1
+#         return used_references[ref]
+#
+#     def normalize_references(ref_str):
+#         return [ref.strip() for ref in ref_str.replace(" ", "").split(",")]
+#
+#     for key, value in gene_info.items():
+#         if key not in ["Gene", "Locus", "Other Names"] and value:
+#             if isinstance(value, list) and len(value) > 0:
+#                 st.markdown(f"**{key}:**")
+#                 for sub_value in value:
+#                     text = sub_value['text']
+#                     references = sub_value['references']
+#                     if references == "None":
+#                         st.markdown(f"**{key}:** {text}")
+#                         continue
+#                     ref_numbers = normalize_references(references)
+#                     ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
+#                     ref_text = ref_text.rstrip(", </sup>") + '</sup>'
+#                     st.markdown(f"- {text} {ref_text}", unsafe_allow_html=True)
+#             else:
+#                 text = value['text']
+#                 references = value['references']
+#                 if references == "None":
+#                     st.markdown(f"**{key}:** {text}")
+#                     continue
+#                 if references:
+#                     ref_numbers = normalize_references(references)
+#                     ref_text = ''.join([f"<sup>{get_sequential_ref(ref.strip())}, </sup>" for ref in ref_numbers])
+#                     ref_text = ref_text.rstrip(", </sup>") + '</sup>'
+#                     st.markdown(f"**{key}:** {text} {ref_text}", unsafe_allow_html=True)
+#                 else:
+#                     st.markdown(f"**{key}:** {text}")
+#     return used_references
 
 
 
@@ -172,7 +236,19 @@ if search_option == "Gene":
                             st.markdown(f"<sup>{new_ref}</sup> {full_citation}", unsafe_allow_html=True)
 
             with st.sidebar.expander("**Patient Database**"):
-                st.write("Patient Database information placeholder.")
+                patients = get_patients_with_gene(gene_name)
+                if patients:
+                    for patient in patients:
+                        st.markdown(f"**Patient ID:** {patient['Patient_ID']}")
+                        gene_counter = 1  # Initialize gene counter
+                        for gene in patient['Genes']:
+                            st.markdown(f"**Gene {gene_counter}:** {gene['Gene_Name']}")
+                            st.markdown(
+                                f"&emsp;**Alleles:** {', '.join(gene['Alleles'])}")  # Indentation using HTML entity
+                            gene_counter += 1
+                        for key, value in patient.items():
+                            if key not in ['Patient_ID', 'Genes'] and value and value != "None":
+                                st.markdown(f"**{key}:** {value}")
 
         else:
             st.sidebar.write("Gene not found.")
@@ -201,7 +277,18 @@ elif search_option == "Structure":
                                 st.markdown(f"<sup>{new_ref}</sup> {full_citation}", unsafe_allow_html=True)
 
                 with st.sidebar.expander("**Patient Database**"):
-                    st.write("Patient Database information placeholder.")
+                    patients = get_patients_with_gene(gene_name)
+                    if patients:
+                        for patient in patients:
+                            st.markdown(f"**Patient ID:** {patient['Patient_ID']}")
+                            gene_counter = 1  # Initialize gene counter
+                            for gene in patient['Genes']:
+                                st.markdown(f"**Gene {gene_counter}:** {gene['Gene_Name']}")
+                                st.markdown(f"&emsp;**Alleles:** {', '.join(gene['Alleles'])}")  # Indentation using HTML entity
+                                gene_counter += 1
+                            for key, value in patient.items():
+                                if key not in ['Patient_ID', 'Genes'] and value and value != "None":
+                                    st.markdown(f"**{key}:** {value}")
 
             else:
                 st.sidebar.write("Gene not found.")
