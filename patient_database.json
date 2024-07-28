@@ -1,0 +1,733 @@
+{
+    "patients": [
+        {
+            "Patient_ID": "11-23-116AS",
+            "Genes": [
+                {
+                    "Gene_Name": "DNAAF11",
+                    "Alleles": [
+                        "c.230dupA (p.Asn77Lysfs*3)",
+                        "c.230dupA (p.Asn77Lysfs*3)"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA and IDA defect",
+            "IF": "Not performed",
+            "HSVMA": "All cilia immotile",
+            "nNO": "Too young",
+            "Laterality defects": "Situs inversus totalis",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "12"
+        },
+        {
+            "Patient_ID": "19-23-129RG",
+            "Genes": [
+                {
+                    "Gene_Name": "DNAH5",
+                    "Alleles": [
+                        "c5983C>T (p.Arg1995*)",
+                        "c.9720+5G>A (p.?)"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA defect",
+            "IF": [
+                {
+                    "text": "DNALI1, RSPH1, RSPH4a, RSPH9 and GAS8 present"
+                },
+                {
+                    "text": "DNAH5 absent"
+                }
+            ],
+            "HSVMA": "All cilia immotile",
+            "nNO": "39ppb",
+            "Laterality defects": "Yes",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "12"
+        },
+        {
+            "Patient_ID": "11-24-132MS",
+            "Genes": [
+                {
+                    "Gene_Name": "SPAG1",
+                    "Alleles": [
+                        "c.2014C>T (p.Gln672*)",
+                        "deletion"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA and IDA defect",
+            "IF": "DNAH5, DNALI1, RSPH4 and GAS8 present",
+            "HSVMA": "All cilia immotile",
+            "nNO": "63",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "8"
+        },
+        {
+            "Patient_ID": "11-23-114JG",
+            "Genes": [
+                {
+                    "Gene_Name": "DNAH5",
+                    "Alleles": [
+                        "c.2432-2A>G (p.?)",
+                        "c.6444G>A (p.Gln2148=)"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA defect",
+            "IF": [
+                {
+                    "text": "DNALI1, RSPH4a, and GAS8 present"
+                },
+                {
+                    "text": "DNAH5 absent"
+                }
+            ],
+            "HSVMA": "Severely reduced / stiff CBF, CBF 4Hz",
+            "nNO": "400",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "8"
+        },
+        {
+            "Patient_ID": "11-23-118CB",
+            "Genes": [
+                {
+                    "Gene_Name": "DNAH5",
+                    "Alleles": [
+                        "c.670C>T (p.Arg224*)",
+                        "c.13194_13197del (p.Asp4398Glufs*16)"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA defect",
+            "IF": [
+                {
+                    "text": "DNALI1, RSPH1, RSPH4a, RSPH9 and GAS8 present"
+                },
+                {
+                    "text": "DNAH5 absent"
+                }
+            ],
+            "HSVMA": "Severely reduced / stiff CBF, CBF <3Hz",
+            "nNO": "Too young",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "7"
+        },
+        {
+            "Patient_ID": "19-23-120JL",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA and IDA defect",
+            "IF": [
+                {
+                    "text": "DNALI1, RSPH1, RSPH4a, RSPH9 and GAS8 present"
+                },
+                {
+                    "text": "DNAH5 absent"
+                }
+            ],
+            "HSVMA": "All cilia immotile",
+            "nNO": "70",
+            "Laterality defects": "Yes",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Yes",
+            "Other clinical associations": "Immotile sperm",
+            "PICADAR score": "12"
+        },
+        {
+            "Patient_ID": "19-23-121LS",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "MTD in 70% of cilia",
+            "IF": "DNALI1, RSPH1, RSPH4a, RSPH9, GAS8 and DNAH5 present",
+            "HSVMA": "Most cilia immotile, some cilia slight flicker",
+            "nNO": "42 (tidal breathing)",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "Parents first cousins",
+            "PICADAR score": "8"
+        },
+        {
+            "Patient_ID": "11-23-126EP",
+            "Genes": [
+                {
+                    "Gene_Name": "DNAH11",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "Normal",
+            "IF": "Inconclusive",
+            "HSVMA": "CBF 17-27. Cilia fast and stiff with unusual movement",
+            "nNO": "142",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "Unknown"
+        },
+        {
+            "Patient_ID": "19-23-128KK",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA defect",
+            "IF": [
+                {
+                    "text": "DNALI1, RSPH4a, and GAS8 present"
+                },
+                {
+                    "text": "DNAH5 absent"
+                }
+            ],
+            "HSVMA": "CBF < 1. Paucity of cilia",
+            "nNO": "53",
+            "Laterality defects": "Unknown",
+            "Congenital heart disease": "Unknown",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "Unknown",
+            "PICADAR score": "Unknown"
+        },
+        {
+            "Patient_ID": "19-24-131MH",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "Overall within normal limits, with a small population showing microtubular disorganisation and central complex abnormalities (8-9% of cilia)",
+            "IF": [
+                {
+                    "text": "DNAH5, DNALI1, RSPH4a, RSPH9 and GAS8 present"
+                },
+                {
+                    "text": "DNAH11 absent"
+                },
+                {
+                    "text": "RSPH1 very weak"
+                }
+            ],
+            "HSVMA": "CBF < 5",
+            "nNO": "27",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "Bronchiectasis",
+            "PICADAR score": "6"
+        },
+        {
+            "Patient_ID": "19-24-134JO",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA and IDA defect",
+            "IF": [
+                {
+                    "text": "RSPH4a and GAS8 present"
+                },
+                {
+                    "text": "DNAH5 (positive in 9/20) and DNALI1 (positive in 4/20 + basal staining only in 5/20)"
+                }
+            ],
+            "HSVMA": "Unknown",
+            "nNO": "6",
+            "Laterality defects": "Yes",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "No",
+            "Other clinical associations": "OSA, bronchiectasis",
+            "PICADAR score": "8"
+        },
+        {
+            "Patient_ID": "19-24-139BL",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA defect",
+            "IF": [
+                {
+                    "text": "DNALI1, RSPH4a and GAS8 present"
+                },
+                {
+                    "text": "DNAH5 absent"
+                }
+            ],
+            "HSVMA": "Most cilia immotil, some flickering very slowly, CBF 0",
+            "nNO": "83",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "Juvenile rheumatoid arthritis, bronchiectasis",
+            "PICADAR score": "6"
+        },
+        {
+            "Patient_ID": "11-23-115XX",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Inconclusive",
+            "TEM": "Normal",
+            "IF": "RSPH1, RSPH4a, RSPH9, GAS8 and DNAH5 present",
+            "HSVMA": "CBF 8.7, purulent, difficult to assess, appears ineffective and stiff",
+            "nNO": "105",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "6"
+        },
+        {
+            "Patient_ID": "19-23-117ZH",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Inconclusive",
+            "TEM": "Normal",
+            "IF": "Not available at time of clinical brushings",
+            "HSVMA": "CBF 5.5, stiff beating pattern, not clearing debris",
+            "nNO": "219",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "Bronchiectasis",
+            "PICADAR score": "Unknown (no neonatal history), 2-6"
+        },
+        {
+            "Patient_ID": "19-23-119GH",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Inconclusive",
+            "TEM": "Normal",
+            "IF": "Insufficient sample",
+            "HSVMA": "CBF 2.65, many immotile",
+            "nNO": "400",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Yes",
+            "Other clinical associations": "Bronchiectasis, primary infertility",
+            "PICADAR score": "6"
+        },
+        {
+            "Patient_ID": "19-23-124BM",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA and IDA defect",
+            "IF": "DNALI1, RSPH1, RSPH4a, RSPH9, GAS8 and DNAH5 present",
+            "HSVMA": "CBF 5.43, many immotile, paucity of cilia seen, some cilia flickering but slow and not clearing",
+            "nNO": "Too young",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "6"
+        },
+        {
+            "Patient_ID": "19-23-125TH",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Inconclusive",
+            "TEM": "Overall within normal limits. A few isolated cilia show MTD and decreased IDAs, that is not diagnostic of PCD",
+            "IF": "DNALI1, RSPH1, RSPH4a, RSPH9, GAS8 and DNAH5 present",
+            "HSVMA": "CBF 6.65, poverty of cilia, most strips no moving cilia. Some strips well ciliated. In these pockets there was not effective clearance. Beat appears stiff and short",
+            "nNO": "250",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "5"
+        },
+        {
+            "Patient_ID": "19-23-127RJ",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Inconclusive. Features highly suggestive of a diagnosis of reduced generation of motile cilia syndrome",
+            "TEM": "Insufficient sample",
+            "IF": [
+                {
+                    "text": "RSPH4a present"
+                },
+                {
+                    "text": "DNAH5, DNALI1 and GAS8 absent"
+                }
+            ],
+            "HSVMA": "CBF 6, stiff beat",
+            "nNO": "70",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "Parents consangenous, sibling with PCD phenotype",
+            "PICADAR score": "8"
+        },
+        {
+            "Patient_ID": "19-23-130PS",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Inconclusive",
+            "TEM": "Normal",
+            "IF": "DNAH5, DNALI1, RSPH4a and GAS8 present",
+            "HSVMA": "CBF 3.6, all cilia beating but clearing ineffecively",
+            "nNO": "23",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "Unknown (no neonatal history), 2-6"
+        },
+        {
+            "Patient_ID": "19-24-135SS",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD confirmed",
+            "TEM": "ODA defect",
+            "IF": [
+                {
+                    "text": "DNALI1, RSPH1, RSPH4a, RSPH9 and GAS8 present"
+                },
+                {
+                    "text": "DNAH5 absent"
+                }
+            ],
+            "HSVMA": "CBF <1, a lot of immotile cilia. Some cilia moving very slowly, undetectable CBF",
+            "nNO": "25 (tidal breathing)",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "8"
+        },
+        {
+            "Patient_ID": "11-24-133KF",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "PCD unlikely",
+            "TEM": "Not done",
+            "IF": "DNALI1, RSPH1, RSPH4a, RSPH9, GAS8 and DNAH5 present",
+            "HSVMA": "CBF 6.3, normal pattern, clearing effectively",
+            "nNO": "Too young",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "5"
+        },
+        {
+            "Patient_ID": "19-24-136SL",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "CBF 5.9, normal beat pattern",
+            "nNO": "700 (tidal breathing)",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "3"
+        },
+        {
+            "Patient_ID": "19-24-138FH",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "CBF 4.5, most cilia moving slowly but clearing debris effectively",
+            "nNO": "458",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "7"
+        },
+        {
+            "Patient_ID": "11-24-140RW",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "Unknown",
+            "nNO": "Too young",
+            "Laterality defects": "Yes",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "Recurrent lobar collapse",
+            "PICADAR score": "11"
+        },
+        {
+            "Patient_ID": "19-24-141AA",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "CBF 11.45, cilia hyperkinetic with reduced bending, not clearing mucus",
+            "nNO": "140",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "Unknown (no neonatal history), 2-8"
+        },
+        {
+            "Patient_ID": "19-24-122RF",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "CBF 4.85, normal beat pattern",
+            "nNO": "636",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Yes",
+            "Other clinical associations": "Immotile sperm, nasal polyps",
+            "PICADAR score": "Unknown (no neonatal history), 2-8"
+        },
+        {
+            "Patient_ID": "19-24-142GG",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "CBF 0, all cilia immotile",
+            "nNO": "89 (tidal breathing)",
+            "Laterality defects": "Yes",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "10"
+        },
+        {
+            "Patient_ID": "19-24-143TA",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "CBF 4, paucity of cilia. Cilia moving slowly",
+            "nNO": "230",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "8"
+        },
+        {
+            "Patient_ID": "19-24-144CN",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "CBF <1, most cilia immotile, some flickering slowly",
+            "nNO": "71",
+            "Laterality defects": "Yes",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "12"
+        },
+        {
+            "Patient_ID": "19-24-145BT",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "CBF 2.4, most cilia immotile, some moving slowly",
+            "nNO": "88",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "Bronchiectasis",
+            "PICADAR score": "4"
+        },
+        {
+            "Patient_ID": "19-24-147CS",
+            "Genes": [
+                {
+                    "Gene_Name": "Unknown",
+                    "Alleles": [
+                        "Unknown"
+                    ]
+                }
+            ],
+            "PCD testing outcome": "Unknown",
+            "TEM": "Unknown",
+            "IF": "Unknown",
+            "HSVMA": "CBF 0.59, most cilia immotile, some moving slowly",
+            "nNO": "Too young",
+            "Laterality defects": "No",
+            "Congenital heart disease": "No",
+            "Infertility/subfertility": "Unknown",
+            "Other clinical associations": "None",
+            "PICADAR score": "8"
+        }
+    ]
+}
